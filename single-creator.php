@@ -16,6 +16,35 @@
 												<td><p>Bio</p></td>
 												<td><p property="foaf:bio"><?php the_content(); ?></p></td>
 											</tr>
+											<?php
+											$titles = types_render_field("section-title", array("separator" => "%%"));
+											$section_titles = explode("%%", $titles);
+											$contents = types_render_field("section-content", array("separator" => "%%"));
+											$section_contents = explode("%%", $contents);
+											$i = 0;
+											foreach ($section_contents as &$content) { ?>
+											<tr>
+												<td><p><?php echo $section_titles[$i]; ?></p></td>
+												<td>
+													<p>
+														<?php echo $content; ?>
+													</p>
+												</td>
+											</tr>
+											<?php $i++; ?>
+											<?php } ?>
+											<tr>
+												<td><p>Added</p></td>
+												<td><p>
+													<?php
+											printf( __( '<time class="updated" datetime="%1$s" pubdate property="dcterms:dateSubmitted">%2$s</time>', 'bonestheme' ), get_the_time( 'Y-m-j' ), get_the_time( __( 'F jS, Y', 'bonestheme' ) ));
+										?>
+												</p></td>
+											</tr>
+											<tr>
+												<td><p>ID</p></td>
+												<td><p property="dcterms:identifier"><?php the_ID(); ?></p></td>
+											</tr>
 										</tbody>
 									</table>
 									<span property="dcterms:identifier" content="<?php the_ID(); ?>"></span>
