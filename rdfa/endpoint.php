@@ -4,12 +4,11 @@
 / Connect to store
 */
 
-require 'lib/arc2/ARC2.php';
-
 // ************************************************************
 // Connecting to the DB
 // ************************************************************
 
+require 'lib/arc2/ARC2.php';
 include_once('connect_to_store.php');
 
 /* instantiation */
