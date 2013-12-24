@@ -266,6 +266,16 @@ function my_get_posts( $query ) {
 	return $query;
 }
 
+// Fix Tag pages
+if ( !is_admin() ) add_filter( 'pre_get_posts', 'my_get_posts_tags' );
+
+function my_get_posts_tags( $query ) {
+	if ( $query->is_tag ){
+		$query->set( 'post_type', array( 'work' ) );
+	}
+	return $query;
+}
+
 /************************************************/
 /************* RDFa Implementations *************/
 /************************************************/

@@ -36,7 +36,7 @@ Template Name: Index
 												<?php foreach ($result as $row) : ?>
 												<tr>
 													<td>
-														<h3><a href="<?php echo $row['url'] ?>"><?php echo $row['name'] ?></span></h3></a>
+														<p><a href="<?php echo $row['url'] ?>"><?php echo $row['name'] ?></span></p></a>
 													</td>
 												</tr>
 												<?php endforeach; ?>
@@ -65,7 +65,7 @@ Template Name: Index
 												<?php foreach ($result as $row) : ?>
 												<tr>
 													<td>
-														<h3><a href="<?php echo $row['url'] ?>"><?php echo $row['title'] ?></span></h3></a>
+														<p><a href="<?php echo $row['url'] ?>"><?php echo $row['title'] ?></span></p></a>
 													</td>
 												</tr>
 												<?php endforeach; ?>
@@ -94,13 +94,34 @@ Template Name: Index
 												<?php foreach ($result as $row) : ?>
 												<tr>
 													<td>
-														<h3><a href="<?php echo $row['url2'] ?>"><?php echo $row['name'] ?></span></h3></a>
+														<p><a href="<?php echo $row['url2'] ?>"><?php echo $row['name'] ?></span></p></a>
 													</td>
 												</tr>
 												<?php endforeach; ?>
 											</tbody>
 										</table>
 										<?php endif; ?>
+									</div>
+									<div class="twocol clearfix">
+										<table class="table">
+											<tbody>
+												<tr>
+													<td><h3>Keywords</h3></td>
+												</tr>
+												<?php 
+												$args = array(
+													'format' 		=> 'array',
+													'smallest'		=> 1, 
+												    'largest'		=> 1,
+												    'unit'			=> 'em',
+												); 
+												$the_tags = wp_tag_cloud( $args );
+												foreach ($the_tags as $tag) {
+													echo '<tr><td><p>'.$tag.'</p></td></tr>';
+												}?>
+												</tr>
+											</tbody>
+										</table>
 									</div>
 								</section>
 								<footer class="article-footer">
