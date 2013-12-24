@@ -1,48 +1,76 @@
 <?php get_header(); ?>
 			<div id="content">
 				<div id="inner-content" class="wrap clearfix">
-					<div id="main" class="eightcol first clearfix" role="main">
-						<table class="table">
-							<tbody>
-								<tr>
-									<td><h3>Search</h3></td>
-									<td><h3 class="byline vcard"><?php echo esc_attr(get_search_query()); ?></h3></td>
-								</tr>
-							</tbody>
-						</table>
-						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-							<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
-								<header class="article-header">
-									<h3 class="search-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-									<p class="byline vcard"><?php
-										printf( __( 'Posted <time class="updated" datetime="%1$s" pubdate>%2$s</time> by <span class="author">%3$s</span> <span class="amp">&</span> filed under %4$s.', 'bonestheme' ), get_the_time( 'Y-m-j' ), get_the_time( __( 'F jS, Y', 'bonestheme' ) ), bones_get_the_author_posts_link(), get_the_category_list(', ') );
-									?></p>
-								</header>
-								<section class="entry-content">
-										<?php the_excerpt( '<span class="read-more">' . __( 'Read more &raquo;', 'bonestheme' ) . '</span>' ); ?>
-								</section>
-								<footer class="article-footer">
-								</footer>
+					<div id="main" class="clearfix main-index" role="main">
+						<h5 class="mini-title">Search: <?php echo esc_attr(get_search_query()); ?></h5>
+						<?php if ( $wp_query->have_posts() ) : ?>
+						<?php while ( $wp_query->have_posts() ) : $wp_query->the_post(); ?>
+							<article id="post-<?php the_ID(); ?>" class="fourcol home-article" role="article">
+								<a href="<?php echo the_permalink();?>">
+									<table class="table">
+										<tbody>
+											<tr>
+												<td><h3>Title</h3></td>
+												<td><h3><?php the_title(); ?></h3></td>
+											</tr>
+											<tr>
+												<td><h3>Author</h3></td>
+												<?php
+												require_once'wp-content/themes/p-dpa/rdfa/lib/arc2/ARC2.php';
+												include_once('wp-content/themes/p-dpa/rdfa/connect_to_store.php');
+												// All Authors					
+												$query = '
+													'.my_vocabs_query().'
+													SELECT distinct ?url ?name 
+													WHERE	{
+														<'.get_permalink().'> dcterms:creator ?url .
+														?url foaf:name ?name
+													}
+												';
+												$result = $store->query($query, 'rows'); ?>
+												<td>
+												<?php
+												if (!empty($result)) {
+													echo '<h3>';
+													$names = array();
+													foreach ($result as $row) {
+														array_push($names, $row['name']);
+													}
+													echo implode(', ', $names);
+												} ?>
+												</td>
+											</tr>
+											<?php
+											$first_image = catch_that_image();
+											if ($first_image != '') { ?>
+											<tr>
+												<td colspan="2" class="img">
+													<img src="<?php echo $first_image;?>" alt="<?php the_title(); ?>" />
+												</td>
+											</tr>
+											<?php } ?>
+										</tbody>
+									</table>
+								</a>
 							</article>
-						<?php endwhile; ?>
-								<?php if (function_exists('bones_page_navi')) { ?>
-										<?php bones_page_navi(); ?>
-								<?php } else { ?>
-										<nav class="wp-prev-next">
-												<ul class="clearfix">
-													<li class="prev-link"><?php next_posts_link( __( '&laquo; Older Entries', 'bonestheme' )) ?></li>
-													<li class="next-link"><?php previous_posts_link( __( 'Newer Entries &raquo;', 'bonestheme' )) ?></li>
-												</ul>
-										</nav>
-								<?php } ?>
-							<?php else : ?>
-									<article id="post-not-found" class="hentry clearfix">
-										<header class="article-header">
-											<h3>No Results. Try Again.</h3>
-										</header>
-									</article>
-							<?php endif; ?>
-						</div>
+						<?php endwhile; ?>						
+						<?php else:  ?>
+						  <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+						<?php endif; ?>
 					</div>
+					<nav class="page-navigation">
+					<?php
+					$big = 999999999; // need an unlikely integer
+					 echo paginate_links( array(
+					    'base' => str_replace( $big, '%#%', get_pagenum_link( $big ) ),
+					    'current' => max( 1, get_query_var('paged') ),
+					    'prev_text'    => __('« Previous'),
+					    'next_text'    => __('Next »'),
+					    'total' => $wp_query->max_num_pages
+					) );
+					?>
+					<?php wp_reset_query(); ?>
+					</nav>
+				</div>
 			</div>
 <?php get_footer(); ?>
