@@ -20,7 +20,7 @@ Template Name: Index
 										include_once('wp-content/themes/p-dpa/rdfa/connect_to_store.php');
 										// All Artists						
 										$query = '
-											PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+											'.my_vocabs_query().'
 											SELECT distinct ?url ?name 
 											WHERE	{
 												?url foaf:name ?name
@@ -45,12 +45,10 @@ Template Name: Index
 										<?php endif; ?>
 									</div>
 									<div class="twocol clearfix">
-									<?php
-										require_once'wp-content/themes/p-dpa/rdfa/lib/arc2/ARC2.php';
-										include_once('wp-content/themes/p-dpa/rdfa/connect_to_store.php');					
+									<?php				
 										// All Works						
 										$query = '
-											PREFIX dcterms: <http://purl.org/dc/terms/>
+											'.my_vocabs_query().'
 											SELECT distinct ?url ?title 
 											WHERE	{
 												?url <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> dcterms:MediaType .
@@ -63,6 +61,34 @@ Template Name: Index
 											<tbody>
 												<tr>
 													<td><h3>Works</h3></td>
+												</tr>
+												<?php foreach ($result as $row) : ?>
+												<tr>
+													<td>
+														<h3><a href="<?php echo $row['url'] ?>"><?php echo $row['title'] ?></span></h3></a>
+													</td>
+												</tr>
+												<?php endforeach; ?>
+											</tbody>
+										</table>
+										<?php endif; ?>
+									</div>
+									<div class="twocol clearfix">
+									<?php				
+										// All Technologies						
+										$query = '
+											'.my_vocabs_query().'
+											SELECT distinct ?url ?title 
+											WHERE	{
+												?url pdpa:technology ?title .
+											}
+										';
+										$result = $store->query($query, 'rows');
+										if (!empty($result)) : ?>
+										<table class="table">
+											<tbody>
+												<tr>
+													<td><h3>Technologies</h3></td>
 												</tr>
 												<?php foreach ($result as $row) : ?>
 												<tr>

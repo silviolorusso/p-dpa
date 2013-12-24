@@ -2,34 +2,26 @@
 			<div id="content">
 				<div id="inner-content" class="wrap clearfix">
 					<div id="main" class="eightcol first clearfix" role="main">
-						<h5 class="mini-title">Article</h5>
+						<h5 class="mini-title">Technology</h5>
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 							<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-								<section id="metadata" class="entry-content clearfix" prefix="<?php my_vocabs(); ?>" about="<?php the_permalink(); ?>" typeof="Article">
+								<section id="metadata" class="entry-content clearfix" prefix="<?php my_vocabs(); ?>" about="<?php the_permalink(); ?>" typeof="foaf:Person">
 									<table class="table">
 										<tbody>
 											<tr>
-												<td><h3>Title</h3></td>
-												<td><h3 property="dcterms:title"><?php the_title(); ?></h3></td>
+												<td><h3>Title</p></td>
+												<td><h3 property="foaf:name"><?php the_title(); ?></h3></td>
 											</tr>
 											<tr>
-												<td><p>Author</p></td>
-												<td><p><?php echo types_render_field("authors", array()); ?></p></td>
+												<td><p>Description</p></td>
+												<td><p property="dcterms:description"><?php the_content(); ?></p></td>
 											</tr>
-											<tr>
-												<td><p>Date</p></td>
-												<td><p class="byline vcard"><?php
-											printf( __( '<time class="updated" datetime="%1$s" pubdate property="dcterms:date">%2$s</time>', 'bonestheme' ), get_the_time( 'Y-m-j' ), get_the_time( __( 'F jS, Y', 'bonestheme' ) ));
-										?>
-												</p></td>
 										</tbody>
 									</table>
 									<span property="dcterms:identifier" content="<?php the_ID(); ?>"></span>
-									<?php the_content(); ?>
 								</section>
 								<footer class="article-footer">
 									<?php the_tags( '<p class="tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
-
 								</footer>
 								<?php comments_template(); ?>
 							</article>
@@ -55,11 +47,11 @@
 					// Related works				
 					$query = '
 						'.my_vocabs_query().'
-						SELECT ?url ?title ?date
+						SELECT distinct ?url ?title ?date
 						WHERE	{
-							<'.get_permalink().'> dcterms:relation ?url .
+							?url pdpa:technology <'.get_permalink().'> .
 							?url dcterms:title ?title .
-							?url dcterms:date ?date .						
+							?url dcterms:date ?date .
 						}
 					';
 					$result = $store->query($query, 'rows');

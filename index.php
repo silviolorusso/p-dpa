@@ -24,8 +24,7 @@
 												include_once('wp-content/themes/p-dpa/rdfa/connect_to_store.php');
 												// All Authors					
 												$query = '
-													PREFIX dcterms: <http://purl.org/dc/terms/> 
-													PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+													'.my_vocabs_query().'
 													SELECT distinct ?url ?name 
 													WHERE	{
 														<'.get_permalink().'> dcterms:creator ?url .

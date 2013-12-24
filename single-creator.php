@@ -46,7 +46,7 @@
 					include_once('wp-content/themes/p-dpa/rdfa/connect_to_store.php');
 					// Related works				
 					$query = '
-						PREFIX dcterms: <http://purl.org/dc/terms/>
+						'.my_vocabs_query().'
 						SELECT distinct ?url ?title ?date
 						WHERE	{
 							?url dcterms:creator <'.get_permalink().'> .

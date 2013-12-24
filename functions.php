@@ -225,8 +225,38 @@ function my_custom_post_author() {
 }
 add_action( 'init', 'my_custom_post_author' );
 
-if ( !is_admin() ) add_filter( 'pre_get_posts', 'my_get_posts' );
+// Custom Post "Technology"
+function my_custom_post_tech() {
+	$labels = array(
+		'name'               => _x( 'Technologies', 'post type general name' ),
+		'singular_name'      => _x( 'Technology', 'post type singular name' ),
+		'add_new'            => _x( 'Add New', 'author' ),
+		'add_new_item'       => __( 'Add New Technology' ),
+		'edit_item'          => __( 'Edit Technology' ),
+		'new_item'           => __( 'New Technology' ),
+		'all_items'          => __( 'All Technologies' ),
+		'view_item'          => __( 'View Technology' ),
+		'search_items'       => __( 'Search Technologies' ),
+		'not_found'          => __( 'No technologies found' ),
+		'not_found_in_trash' => __( 'No technologies found in the Trash' ), 
+		'parent_item_colon'  => '',
+		'menu_name'          => 'Technologies'
+	);
+	$args = array(
+		'labels'        => $labels,
+		'description'   => 'Technologies employed in the works',
+		'public'        => true,
+		'menu_position' => 7,
+		'supports'      => array( 'title', 'editor', 'thumbnail', 'revisions' ),
+		'has_archive'   => true,
+	);
+	register_post_type( 'tech', $args );
+}
+add_action( 'init', 'my_custom_post_tech' );
 
+
+// Fix Homepage Pagination
+if ( !is_admin() ) add_filter( 'pre_get_posts', 'my_get_posts' );
 
 function my_get_posts( $query ) {
 	if ( is_home() && $query->is_main_query() ){
@@ -292,6 +322,20 @@ function my_vocabs() {
 	$vocabs = fread($handle, filesize($filename));
 	fclose($handle);
 	echo $vocabs;
+}
+
+// List in the query all the vocabularies used
+function my_vocabs_query() {
+	$filename = 'wp-content/themes/p-dpa/rdfa/vocabularies.txt';
+	$handle = fopen($filename, "r");
+	$vocabs = fread($handle, filesize($filename));
+	$pieces = explode(" ", $vocabs);
+	$prefixes = "";
+	for ($i = 0; $i < count($pieces); $i = $i+2) {
+	    $prefixes .= "PREFIX ".$pieces[$i]." <".$pieces[($i+1)].">\n";
+	}
+	return $prefixes;
+	fclose($handle);
 }
 
 // Add the triplestore as a DB in order not to create conflict with WP
