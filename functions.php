@@ -276,6 +276,16 @@ function my_get_posts_tags( $query ) {
 	return $query;
 }
 
+// Exclude Pages from Search
+function SearchFilter($query) {
+if ($query->is_search) {
+	$query->set('post_type', array( 'post', 'work', 'creator', 'tech' ));
+}
+	return $query;
+}
+add_filter('pre_get_posts','SearchFilter');
+
+
 /************************************************/
 /************* RDFa Implementations *************/
 /************************************************/

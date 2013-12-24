@@ -13,33 +13,6 @@
 												<td><h3>Title</h3></td>
 												<td><h3><?php the_title(); ?></h3></td>
 											</tr>
-											<tr>
-												<td><h3>Author</h3></td>
-												<?php
-												require_once'wp-content/themes/p-dpa/rdfa/lib/arc2/ARC2.php';
-												include_once('wp-content/themes/p-dpa/rdfa/connect_to_store.php');
-												// All Authors					
-												$query = '
-													'.my_vocabs_query().'
-													SELECT distinct ?url ?name 
-													WHERE	{
-														<'.get_permalink().'> dcterms:creator ?url .
-														?url foaf:name ?name
-													}
-												';
-												$result = $store->query($query, 'rows'); ?>
-												<td>
-												<?php
-												if (!empty($result)) {
-													echo '<h3>';
-													$names = array();
-													foreach ($result as $row) {
-														array_push($names, $row['name']);
-													}
-													echo implode(', ', $names);
-												} ?>
-												</td>
-											</tr>
 											<?php
 											$first_image = catch_that_image();
 											if ($first_image != '') { ?>
