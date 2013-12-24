@@ -50,6 +50,9 @@
 			<header class="header" role="banner">
 				<div id="inner-header" class="wrap clearfix">
 					<nav role="navigation">
+						<div id="menu-button">
+							<p>Menu</p>
+						</div>
 						<?php bones_main_nav(); ?>
 					</nav>
 					<div class="fourcol first">

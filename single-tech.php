@@ -10,7 +10,7 @@
 										<tbody>
 											<tr>
 												<td><h3>Title</p></td>
-												<td><h3 property="foaf:name"><?php the_title(); ?></h3></td>
+												<td><h3 property="dcterms:title"><?php the_title(); ?></h3></td>
 											</tr>
 											<tr>
 												<td><p>Description</p></td>

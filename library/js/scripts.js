@@ -79,6 +79,11 @@ jQuery(document).ready(function($) {
 	
 	}
 	
+	// Mobile menu
+	$('#menu-button').click(function(){
+		$('.top-nav').toggle();
+	});
+	
 	$('a:has(img)').addClass('image-link');
 
 	// Fitvid to fit video size on window resize

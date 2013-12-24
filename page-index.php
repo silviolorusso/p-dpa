@@ -78,9 +78,10 @@ Template Name: Index
 										// All Technologies						
 										$query = '
 											'.my_vocabs_query().'
-											SELECT distinct ?url ?title 
+											SELECT distinct ?url ?url2 ?name 
 											WHERE	{
-												?url pdpa:technology ?title .
+												?url pdpa:technology ?url2 .
+												?url2 dcterms:title ?name .
 											}
 										';
 										$result = $store->query($query, 'rows');
@@ -93,7 +94,7 @@ Template Name: Index
 												<?php foreach ($result as $row) : ?>
 												<tr>
 													<td>
-														<h3><a href="<?php echo $row['url'] ?>"><?php echo $row['title'] ?></span></h3></a>
+														<h3><a href="<?php echo $row['url2'] ?>"><?php echo $row['name'] ?></span></h3></a>
 													</td>
 												</tr>
 												<?php endforeach; ?>

@@ -871,10 +871,6 @@ h5,
   font-family: Arial, sans-serif;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  /*
-	if you're going to use webfonts, be sure to check your weights
-	http://css-tricks.com/watch-your-font-weight/
-	*/
   /* removing text decoration from all headline links */
 }
 h1 a,
@@ -948,9 +944,6 @@ h5,
   border: 2px solid #000000;
   padding: 10px;
 }
-.header nav div.top-nav ul li:first-child {
-  display: none;
-}
 /*********************
 07. NAVIGATION STYLES
 *********************/
@@ -961,8 +954,36 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
+nav #menu-button {
+  cursor: pointer;
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+nav #menu-button p {
+  margin-bottom: 0;
+  padding: 0.5em;
+}
+nav div.top-nav {
+  display: none;
+  margin-top: 0;
+}
+nav div.top-nav ul {
+  margin-top: 0;
+  border: 2px solid #000000;
+  border-bottom: none;
+}
+nav div.top-nav ul li {
+  border-bottom: 2px solid #000000;
+}
+nav div.top-nav ul li:first-child {
+  display: none;
+}
+nav div.top-nav ul li a {
+  border: none;
+  padding-bottom: 4px;
+}
 .nav {
-  border: 1px solid #ccc;
   border-bottom: 0;
   font-weight: bold;
   /* end .menu li */
@@ -982,12 +1003,6 @@ and more scalable.
   display: block;
   text-decoration: none;
   margin: 10px 20px;
-  /*
-			remember this is for mobile ONLY, so there's no need
-			to even declare hover styles here, you can do it in
-			the style.scss file where it's relevant. We want to
-			keep this file as small as possible!
-			*/
 }
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
@@ -1644,6 +1659,26 @@ HEADER STYLES
   /*********************
 NAVIGATION STYLES
 *********************/
+  nav #menu-button {
+    display: none;
+  }
+  nav div.top-nav {
+    display: block !important;
+  }
+  nav div.top-nav ul {
+    margin-top: auto;
+    border: none;
+  }
+  nav div.top-nav ul li {
+    border: none;
+  }
+  nav div.top-nav ul li a {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 2px;
+  }
+  nav div.top-nav ul li.current_page_item a {
+    border-bottom: none !important;
+  }
   .nav {
     border: 0;
     margin-left: -20px;

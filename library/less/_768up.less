@@ -67,6 +67,29 @@ nav {
 NAVIGATION STYLES
 *********************/
 
+nav {
+	#menu-button{
+		display: none;
+	}
+	div.top-nav {
+		display: block !important;
+		ul { 
+			margin-top: auto;
+			border: none;
+			li {
+				border: none;
+				a {
+					border-bottom: 2px solid @black;
+					padding-bottom: 2px;
+				}
+			}
+			li.current_page_item a {
+				border-bottom: none !important;
+			}
+		}
+	}
+}
+
 .nav {
 	border: 0;
 	margin-left: -20px;

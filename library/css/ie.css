@@ -491,6 +491,26 @@ nav {
 /*********************
 NAVIGATION STYLES
 *********************/
+nav #menu-button {
+  display: none;
+}
+nav div.top-nav {
+  display: block !important;
+}
+nav div.top-nav ul {
+  margin-top: auto;
+  border: none;
+}
+nav div.top-nav ul li {
+  border: none;
+}
+nav div.top-nav ul li a {
+  border-bottom: 2px solid #000000;
+  padding-bottom: 2px;
+}
+nav div.top-nav ul li.current_page_item a {
+  border-bottom: none !important;
+}
 .nav {
   border: 0;
   margin-left: -20px;

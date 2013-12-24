@@ -127,43 +127,31 @@ a, a:visited {
 p, ol {
 	font-size: 1.125em;
 }
-
-
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	font-family: @sans-serif;
 	text-rendering: optimizelegibility;
 	font-weight: bold;
-	/*
-	if you're going to use webfonts, be sure to check your weights
-	http://css-tricks.com/watch-your-font-weight/
-	*/
-
 	/* removing text decoration from all headline links */
 	a {
 		text-decoration: none;
 	}
 }
-
 h1, .h1 {
 	font-size: 2.5em;
 	line-height: 1.333em;
 }
-
 h2, .h2 {
 	font-size: 1.75em;
 	line-height: 1.4em;
 	margin-bottom: 0.375em;
 }
-
 h3, .h3 {
 	font-size: 1.125em;
 }
-
 h4, .h4 {
 	font-size: 1.1em;
 	font-weight: 700;
 }
-
 h5, .h5 {
 	font-size: 0.846em;
 	line-height: 2.09em;
@@ -202,17 +190,6 @@ h5, .h5 {
 		border: 2px solid @black;
 		padding: 10px;
 	}
-	nav {
-		div.top-nav {
-			ul {
-				li {
-					&:first-child {
-						display: none;
-					}
-				}
-			}
-		}
-	}
 }
 
 /*********************
@@ -227,8 +204,39 @@ the navs on the site so our css is cleaner
 and more scalable.
 */
 
+nav {
+	#menu-button{
+		cursor: pointer;
+		text-align: center;
+		background-color: @black;
+		color: @white;
+		p {
+			margin-bottom: 0;
+			padding: 0.5em;
+		}
+	}
+	div.top-nav {
+		display: none;
+		margin-top: 0;
+		ul {
+			margin-top: 0;
+			border: 2px solid @black;
+			border-bottom: none;
+			li {
+				border-bottom: 2px solid @black;
+				&:first-child {
+					display: none;
+				}
+				a {
+					border: none;
+					padding-bottom: 4px;
+				}
+			}
+		}
+	}
+}
+
 .nav {
-	border: 1px solid #ccc;
 	border-bottom: 0;
 	font-weight: bold;
 	li {
@@ -236,15 +244,6 @@ and more scalable.
 			display: block;
 			text-decoration: none;
 			margin: 10px 20px;
-
-			/*
-			remember this is for mobile ONLY, so there's no need
-			to even declare hover styles here, you can do it in
-			the style.scss file where it's relevant. We want to
-			keep this file as small as possible!
-			*/
-			&:hover, &:focus {
-			}
 		}
 		&:first-child {}
 		&:last-child {}
