@@ -16656,3 +16656,168 @@ INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
 }
 		
 
+Tue Dec 24 15:19:57 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://xmlns.com/foaf/0.1/name> "Six:Thirty" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://xmlns.com/foaf/0.1/bio> "As designers and technologists, we use a broad range of experience to deliver projects for brands and cultural institutions. Weâre inspired by the potential of technology to transform our everyday lives, and use self-initiated projects to inform our commercial output." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-22" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://purl.org/dc/terms/identifier> "143" . 
+}
+		
+
+Tue Dec 24 15:20:15 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://xmlns.com/foaf/0.1/name> "Six:Thirty" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://xmlns.com/foaf/0.1/bio> "As designers and technologists, we use a broad range of experience to deliver projects for brands and cultural institutions. Weâre inspired by the potential of technology to transform our everyday lives, and use self-initiated projects to inform our commercial output." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://xmlns.com/foaf/0.1/homepage> <http://localhost:8888/p-dpa/wp/creator/six-thirty/www.sixthirty.pm> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-22" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://purl.org/dc/terms/identifier> "143" . 
+}
+		
+
+Tue Dec 24 15:20:22 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
+	<http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
+	<http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> <http://xmlns.com/foaf/0.1/name> "Silvio Lorusso" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
+	<http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> <http://xmlns.com/foaf/0.1/bio> "Silvio Lorusso is an Italian artist and designer. As PhD candidate in Design Sciences at Iuav University of Venice, he investigates the intersections between publishing and digital technology from the perspective of art and design. This archive is curated by him." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
+	<http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> <http://xmlns.com/foaf/0.1/homepage> <http://silviolorusso.com> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
+	<http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> <http://purl.org/dc/terms/dateSubmitted> "2013-11-8" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
+	<http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> <http://purl.org/dc/terms/identifier> "58" . 
+}
+		
+
