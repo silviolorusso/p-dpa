@@ -81,7 +81,9 @@ jQuery(document).ready(function($) {
 	
 	// Forms color Black
 	$( "#mce-EMAIL, #search-form input" ).keypress(function() {
-	  $(this).css( "color", "black" );
+		if ($(this).css('color') != 'block') {
+			$(this).css( "color", "black" );
+		}
 	});
 	
 	// Mobile menu
