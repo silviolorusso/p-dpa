@@ -56,11 +56,12 @@
 						<?php bones_main_nav(); ?>
 					</nav>
 					<div class="fourcol first">
-						<p id="logo" class="h1">
+						<div id="logo">
 							<a href="<?php echo home_url(); ?>" rel="nofollow">
-								<img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png">
+								<div id="logo-img">
+								</div>
 							</a>
-						</p>
+						</div>
 					</div>
 					<div class="fourcol" id="blog-desc">
 						<div>

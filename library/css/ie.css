@@ -371,8 +371,8 @@ values are commented out on each line.
   float: right;
 }
 /******************************************************************
-Site Name:
-Author:
+Site Name: P-DPA.net
+Author: Silvio Lorusso
 
 Stylesheet: Tablet & Small Desktop Stylesheet
 
@@ -400,7 +400,7 @@ HEADER STYLES
   display: table-cell;
   vertical-align: bottom;
   margin: 0;
-  padding-bottom: 1em;
+  padding-bottom: 3.5em;
 }
 .header #blog-desc div {
   height: 240px;

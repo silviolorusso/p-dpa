@@ -667,7 +667,7 @@ you set a great foundation, you won't need to add too many styles in
 the other stylesheets. Remember, keep it light: Speed is Important.
 */
 /******************************************************************
-Site Name: P-DPA
+Site Name: P-DPA.net
 Author: Silvio Lorusso
 
 Stylesheet: Base Mobile Stylesheet
@@ -789,7 +789,8 @@ a:visited:link {
 05. H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 p,
-ol {
+ol,
+ul {
   font-size: 1.125em;
 }
 h1,
@@ -856,13 +857,18 @@ h5,
   margin-left: -3px;
   /* aligning to the verticals of the letters */
   margin-top: 30px;
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 .header #logo a {
   border-bottom: none;
 }
-.header #logo a img {
-  width: 300px;
+.header #logo a div#logo-img {
+  max-width: 300px;
+  height: 164px;
   max-width: 100%;
+  background: url('http://localhost:8888/p-dpa/wp/wp-content/themes/p-dpa/library/images/logo.png') no-repeat;
+  background-size: contain;
 }
 .header #blog-desc div h2 {
   font-family: 'OCRF';
@@ -1553,8 +1559,8 @@ values are commented out on each line.
     float: right;
   }
   /******************************************************************
-Site Name:
-Author:
+Site Name: P-DPA.net
+Author: Silvio Lorusso
 
 Stylesheet: Tablet & Small Desktop Stylesheet
 
@@ -1582,7 +1588,7 @@ HEADER STYLES
     display: table-cell;
     vertical-align: bottom;
     margin: 0;
-    padding-bottom: 1em;
+    padding-bottom: 3.5em;
   }
   .header #blog-desc div {
     height: 240px;
@@ -1785,45 +1791,16 @@ query for retina AND a certain size if you want. Go Nuts.
 */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /******************************************************************
-Site Name: 
-Author: 
+Site Name: P-DPA.net
+Author: Silvio Lorusso
 
 Stylesheet: Retina Screens & Devices Stylesheet
 
-When handling retina screens you need to make adjustments, especially
-if you're not using font icons. Here you can add them in one neat
-place.
-
 ******************************************************************/
-  /* 
-
-EXAMPLE 
-Let's say you have an image and you need to make sure it looks ok
-on retina screens. Let's say we have an icon which dimension are
-24px x 24px. In your regular stylesheets, it would look something
-like this:
-
-.icon {
-	width: 24px;
-	height: 24px;
-	background: url(img/test.png) no-repeat;
-}
-
-For retina screens, we have to make some adjustments, so that image
-doesn't look blurry. So, taking into account the image above and the
-dimensions, this is what we would put in our retina stylesheet:
-
-.icon {
-	background: url(img/test@2x.png) no-repeat;
-	background-size: 24px 24px;
-}
-
-So, you would create the same icon, but at double the resolution, meaning 
-it would be 48px x 48px. You'd name it the same, but with a @2x at the end
-(this is pretty standard practice). Set the background image so it matches
-the original dimensions and you are good to go. 
-
-*/
+  div#logo-img {
+    background: url('http://localhost:8888/p-dpa/wp/wp-content/themes/p-dpa/library/images/logo@2x.png') no-repeat;
+    background-size: contain;
+  }
 }
 /*
 iPHONE 5 MEDIA QUERY

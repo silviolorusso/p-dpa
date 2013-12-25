@@ -1,5 +1,5 @@
 /******************************************************************
-Site Name: P-DPA
+Site Name: P-DPA.net
 Author: Silvio Lorusso
 
 Stylesheet: Base Mobile Stylesheet
@@ -125,7 +125,7 @@ a, a:visited {
 05. H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 
-p, ol {
+p, ol, ul {
 	font-size: 1.125em;
 }
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
@@ -169,11 +169,16 @@ h5, .h5 {
 	#logo {
 		margin-left: -3px; /* aligning to the verticals of the letters */
 		margin-top: 30px;
+		padding-bottom: 1em;
+		padding-top: 1em;
 		a {
 			border-bottom: none;
-			img {
-				width: 300px;
+			div#logo-img {
+				max-width: 300px;
+				height: 164px;
 				max-width: 100%;
+				background: url('http://localhost:8888/p-dpa/wp/wp-content/themes/p-dpa/library/images/logo.png') no-repeat;
+				background-size: contain;
 			}
 		}
 	}
