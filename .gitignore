@@ -1,29 +1,6 @@
 # folders and files to be ignored by git
 
-############
-## Bones
-############
 
-Bones.esproj/
-
-############
-## IDEs
-############
-
-*.pydevproject
-.project
-.metadata
-*.swp
-*~.nib
-local.properties
-.classpath
-.settings/
-.loadpath
-.externalToolBuilders/
-*.launch
-.cproject
-.buildpath
-nbproject/
 
 ############
 ## OSes
