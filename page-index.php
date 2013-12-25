@@ -75,6 +75,35 @@ Template Name: Index
 									</div>
 									<div class="twocol clearfix">
 									<?php				
+										// All Media						
+										$query = '
+											'.my_vocabs_query().'
+											SELECT distinct ?url ?url2 ?name 
+											WHERE	{
+												?url dcterms:medium ?url2 .
+												?url2 dcterms:title ?name .
+											}
+										';
+										$result = $store->query($query, 'rows');
+										if (!empty($result)) : ?>
+										<table class="table">
+											<tbody>
+												<tr>
+													<td><h3>Media</h3></td>
+												</tr>
+												<?php foreach ($result as $row) : ?>
+												<tr>
+													<td>
+														<p><a href="<?php echo $row['url2'] ?>"><?php echo $row['name'] ?></span></p></a>
+													</td>
+												</tr>
+												<?php endforeach; ?>
+											</tbody>
+										</table>
+										<?php endif; ?>
+									</div>
+									<div class="twocol clearfix">
+									<?php				
 										// All Technologies						
 										$query = '
 											'.my_vocabs_query().'
@@ -104,12 +133,12 @@ Template Name: Index
 									</div>
 									<div class="twocol clearfix">
 									<?php				
-										// All Media						
+										// All Platforms						
 										$query = '
 											'.my_vocabs_query().'
 											SELECT distinct ?url ?url2 ?name 
 											WHERE	{
-												?url dcterms:medium ?url2 .
+												?url pdpa:platform ?url2 .
 												?url2 dcterms:title ?name .
 											}
 										';
@@ -118,7 +147,7 @@ Template Name: Index
 										<table class="table">
 											<tbody>
 												<tr>
-													<td><h3>Media</h3></td>
+													<td><h3>Platforms</h3></td>
 												</tr>
 												<?php foreach ($result as $row) : ?>
 												<tr>
