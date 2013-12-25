@@ -79,6 +79,11 @@ jQuery(document).ready(function($) {
 	
 	}
 	
+	// Forms color Black
+	$( "#mce-EMAIL, #search-form input" ).keypress(function() {
+	  $(this).css( "color", "black" );
+	});
+	
 	// Mobile menu
 	$('#menu-button').click(function(){
 		$('.top-nav').toggle();
