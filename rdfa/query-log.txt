@@ -19164,3 +19164,2640 @@ INSERT INTO <http://localhost:8888/p-dpa/wp/platform/blurb/> {
 }
 		
 
+Wed Dec 25 13:53:22 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 13:57:17 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 13:58:32 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:01:18 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://xmlns.com/foaf/0.1/name> "Jesse England" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://xmlns.com/foaf/0.1/bio> "Jesse England (born 1982, Oregon, USA)    -In his youth, he was exposed to wide a variety of new imaging devices which supplanted their predecessors (16mm, Beta, VHS, Video8, Super 8mm, CD, DVD, miniDV, NTSC, etc., all came to pass).    -Learned to develop own film at a young age. Enjoys hooking up video equipment like others would enjoy a jigsaw puzzle.    -Edited and shot video for local TV news station while witnessing slow downfall of local television news.    -Obtained a bachelor of science degree in multimedia design from the University of Oregon in 2005, and an MFA degree from Carnegie Mellon University in 2012." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://purl.org/dc/terms/identifier> "257" . 
+}
+		
+
+Wed Dec 25 14:02:21 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://xmlns.com/foaf/0.1/name> "Jesse England" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://xmlns.com/foaf/0.1/bio> "" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://purl.org/dc/terms/identifier> "257" . 
+}
+		
+
+Wed Dec 25 14:03:20 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://xmlns.com/foaf/0.1/name> "Jesse England" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://xmlns.com/foaf/0.1/bio> "" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://purl.org/dc/terms/identifier> "257" . 
+}
+		
+
+Wed Dec 25 14:04:39 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:04:52 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/creator> <http://localhost:8888/p-dpa/wp/creator/jesse-england/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:05:02 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://xmlns.com/foaf/0.1/name> "Jesse England" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://xmlns.com/foaf/0.1/bio> "" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://purl.org/dc/terms/identifier> "257" . 
+}
+		
+
+Wed Dec 25 14:05:21 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://xmlns.com/foaf/0.1/name> "Jesse England" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://xmlns.com/foaf/0.1/bio> "" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://purl.org/dc/terms/identifier> "257" . 
+}
+		
+
+Wed Dec 25 14:10:07 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/creator> <http://localhost:8888/p-dpa/wp/creator/jesse-england/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:11:28 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/creator> <http://localhost:8888/p-dpa/wp/creator/jesse-england/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:13:56 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/creator> <http://localhost:8888/p-dpa/wp/creator/jesse-england/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:30:55 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/index.php?/project/e-book-backup/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:31:56 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/index.php?/project/e-book-backup/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:32:27 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/index.php?/project/e-book-backup/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:33:28 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/index.php?/project/e-book-backup/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/subject> " 												access, ownership												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:34:47 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/index.php?/project/e-book-backup/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/subject> " 												access, ownership												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:35:49 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/index.php?/project/e-book-backup/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/book/ â> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/subject> " 												access, ownership												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:35:59 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/index.php?/project/e-book-backup/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/book/â> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/subject> " 												access, ownership												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:37:52 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/index.php?/project/e-book-backup/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/book/â> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/subject> " 												access, ownership												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:38:05 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/title> "Collate" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/creator> <http://localhost:8888/p-dpa/wp/creator/six-thirty/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/date> "2013" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/description> "Collate is a project exploring the possibilities of digital collaboration. An installation commissioned by London Design Festival allowed visitors to take part in creating an image based book at the V&A Museum." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/installation/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://localhost:8888/p-dpa/wp/vocabulary/#technology> "Touchscreen" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://localhost:8888/p-dpa/wp/vocabulary/#technology> <http://localhost:8888/p-dpa/wp/tech/pod/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://localhost:8888/p-dpa/wp/vocabulary/#platform> <http://localhost:8888/p-dpa/wp/platform/blurb/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/source> <http://www.sixthirty.pm/portfolio/collate> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/isPartOf> _:arc9e22b1 . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc9e22b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc9e22b1 <http://purl.org/dc/terms/title> "London Design Festival" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc9e22b1 <http://schema.org/location> "V&A Museum" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc9e22b1 <http://schema.org/startDate> "2013-09-14" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc9e22b1 <http://schema.org/endDate> "2013-09-22" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc9e22b1 <http://purl.org/dc/terms/source> <http://www.londondesignfestival.com/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/rights> "Copyright of the author" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/subject> " 												collaboration, graphic design, process												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-22" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/identifier> "141" . 
+}
+		
+
+Wed Dec 25 14:39:04 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/index.php?/project/e-book-backup/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/book/â> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/subject> " 												access, ownership												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:40:04 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/index.php?/project/e-book-backup/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/book/â> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/subject> " 												access, ownership												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:40:11 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/index.php?/project/e-book-backup/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/book/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/subject> " 												access, ownership												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:40:56 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/index.php?/project/e-book-backup/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/book/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/subject> " 												access, ownership												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:41:10 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/creator> <http://localhost:8888/p-dpa/wp/creator/jesse-england/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/index.php?/project/e-book-backup/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/book/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/subject> " 												access, ownership												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:42:22 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/creator> <http://localhost:8888/p-dpa/wp/creator/jesse-england/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/index.php?/project/e-book-backup/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/book/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/subject> " 												access, control, ownership												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:48:34 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/creator> <http://localhost:8888/p-dpa/wp/creator/jesse-england/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/index.php?/project/e-book-backup/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/book/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/subject> " 												access, control, ownership												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:49:22 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/tech/photocopy/> {
+	<http://localhost:8888/p-dpa/wp/tech/photocopy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/tech/photocopy/> {
+	<http://localhost:8888/p-dpa/wp/tech/photocopy/> <http://purl.org/dc/terms/title> "Photocopy" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/tech/photocopy/> {
+	<http://localhost:8888/p-dpa/wp/tech/photocopy/> <http://purl.org/dc/terms/description> "" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/tech/photocopy/> {
+	<http://localhost:8888/p-dpa/wp/tech/photocopy/> <http://purl.org/dc/terms/identifier> "267" . 
+}
+		
+
+Wed Dec 25 14:51:02 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/tech/photocopy/> {
+	<http://localhost:8888/p-dpa/wp/tech/photocopy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/tech/photocopy/> {
+	<http://localhost:8888/p-dpa/wp/tech/photocopy/> <http://purl.org/dc/terms/title> "Photocopy" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/tech/photocopy/> {
+	<http://localhost:8888/p-dpa/wp/tech/photocopy/> <http://purl.org/dc/terms/description> "A photocopier (also known as a copier or copy machine) is a machine that makes paper copies of documents and other visual images quickly and cheaply. Most current photocopiers use a technology called xerography, a dry process that uses electrostatic charges on a light sensitive photoreceptor to first attract and then transfer toner particles (a powder) onto paper in the form of an image. Heat, pressure or a combination of both is then used to fuse the toner onto the paper. (Wikipedia)" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/tech/photocopy/> {
+	<http://localhost:8888/p-dpa/wp/tech/photocopy/> <http://purl.org/dc/terms/identifier> "267" . 
+}
+		
+
+Wed Dec 25 14:52:02 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/creator> <http://localhost:8888/p-dpa/wp/creator/jesse-england/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/index.php?/project/e-book-backup/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/book/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/subject> " 												access, control, ownership												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:52:10 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/title> "E-Book Backup" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/creator> <http://localhost:8888/p-dpa/wp/creator/jesse-england/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/date> "2012 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/description> "E-book backup is a physical, tangible, human readable copy of an electronically stored novel. The purchased contents of an e-book reader were easily photocopied and clip-bound to create a shelf-stable backup for the benefit of me, the book consumer. I can keep it on my bookshelf without worry of remote recall. A second hardcover backup has been made with the help of an online self-publishing house." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/index.php?/project/e-book-backup/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/book/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://localhost:8888/p-dpa/wp/vocabulary/#technology> <http://localhost:8888/p-dpa/wp/tech/photocopy/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/subject> " 												access, control, ownership												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/e-book-backup/> {
+	<http://localhost:8888/p-dpa/wp/work/e-book-backup/> <http://purl.org/dc/terms/identifier> "244" . 
+}
+		
+
+Wed Dec 25 14:54:45 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://xmlns.com/foaf/0.1/name> "Jesse England" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://xmlns.com/foaf/0.1/bio> "Jesse England (born 1982, Oregon, USA)    -In his youth, he was exposed to wide a variety of new imaging devices which supplanted their predecessors (16mm, Beta, VHS, Video8, Super 8mm, CD, DVD, miniDV, NTSC, etc., all came to pass).    -Learned to develop own film at a young age. Enjoys hooking up video equipment like others would enjoy a jigsaw puzzle.    -Edited and shot video for local TV news station while witnessing slow downfall of local television news.    -Obtained a bachelor of science degree in multimedia design from the University of Oregon in 2005, and an MFA degree from Carnegie Mellon University in 2012. " . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://purl.org/dc/terms/source> <http://www.jesseengland.net/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-25" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/jesse-england/> {
+	<http://localhost:8888/p-dpa/wp/creator/jesse-england/> <http://purl.org/dc/terms/identifier> "257" . 
+}
+		
+
+Wed Dec 25 14:55:25 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://xmlns.com/foaf/0.1/name> "Six:Thirty" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://xmlns.com/foaf/0.1/bio> "As designers and technologists, we use a broad range of experience to deliver projects for brands and cultural institutions. Weâre inspired by the potential of technology to transform our everyday lives, and use self-initiated projects to inform our commercial output." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://xmlns.com/foaf/0.1/homepage> <http://www.sixthirty.pm> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-22" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://purl.org/dc/terms/identifier> "143" . 
+}
+		
+
+Wed Dec 25 14:55:38 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
+	<http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
+	<http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> <http://xmlns.com/foaf/0.1/name> "Silvio Lorusso" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
+	<http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> <http://xmlns.com/foaf/0.1/bio> "Silvio Lorusso is an Italian artist and designer. As PhD candidate in Design Sciences at Iuav University of Venice, he investigates the intersections between publishing and digital technology from the perspective of art and design. This archive is curated by him." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
+	<http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> <http://xmlns.com/foaf/0.1/homepage> <http://silviolorusso.com> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
+	<http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> <http://purl.org/dc/terms/dateSubmitted> "2013-11-8" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
+	<http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> <http://purl.org/dc/terms/identifier> "58" . 
+}
+		
+

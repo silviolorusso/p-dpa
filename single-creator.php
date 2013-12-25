@@ -14,7 +14,7 @@
 											</tr>
 											<tr>
 												<td><p>Bio</p></td>
-												<td><p property="foaf:bio"><?php the_content(); ?></p></td>
+												<td><div property="foaf:bio"><?php the_content(); ?></div></td>
 											</tr>
 											<?php
 											$titles = types_render_field("section-title", array("separator" => "%%"));
