@@ -254,6 +254,35 @@ function my_custom_post_tech() {
 }
 add_action( 'init', 'my_custom_post_tech' );
 
+// Custom Post "Medium"
+function my_custom_post_media() {
+	$labels = array(
+		'name'               => _x( 'Media', 'post type general name' ),
+		'singular_name'      => _x( 'Medium', 'post type singular name' ),
+		'add_new'            => _x( 'Add New', 'author' ),
+		'add_new_item'       => __( 'Add New Medium' ),
+		'edit_item'          => __( 'Edit Medium' ),
+		'new_item'           => __( 'New Medium' ),
+		'all_items'          => __( 'All Media' ),
+		'view_item'          => __( 'View Medium' ),
+		'search_items'       => __( 'Search Media' ),
+		'not_found'          => __( 'No media found' ),
+		'not_found_in_trash' => __( 'No media found in the Trash' ), 
+		'parent_item_colon'  => '',
+		'menu_name'          => 'Media'
+	);
+	$args = array(
+		'labels'        => $labels,
+		'description'   => 'Media employed in the works',
+		'public'        => true,
+		'menu_position' => 8,
+		'supports'      => array( 'title', 'editor', 'thumbnail', 'revisions' ),
+		'has_archive'   => true,
+	);
+	register_post_type( 'medium', $args );
+}
+add_action( 'init', 'my_custom_post_media' );
+
 
 // Fix Homepage Pagination
 if ( !is_admin() ) add_filter( 'pre_get_posts', 'my_get_posts' );

@@ -16821,3 +16821,1249 @@ INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
 }
 		
 
+Tue Dec 24 16:25:47 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/title> "Collate" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/creator> <http://localhost:8888/p-dpa/wp/creator/six-thirty/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/date> "2013" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/description> "Collate is a project exploring the possibilities of digital collaboration. An installation commissioned by London Design Festival allowed visitors to take part in creating an image based book at the V&A Museum." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/pod/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://localhost:8888/p-dpa/wp/vocabulary/#technology> "Touchscreen" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://localhost:8888/p-dpa/wp/vocabulary/#technology> <http://localhost:8888/p-dpa/wp/tech/pod/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/source> <http://www.sixthirty.pm/portfolio/collate> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/rights> "Copyright of the author" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/subject> " 												collaboration, graphic design, process												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-22" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/identifier> "141" . 
+}
+		
+
+Tue Dec 24 16:26:16 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/title> "Collate" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/creator> <http://localhost:8888/p-dpa/wp/creator/six-thirty/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/date> "2013" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/description> "Collate is a project exploring the possibilities of digital collaboration. An installation commissioned by London Design Festival allowed visitors to take part in creating an image based book at the V&A Museum." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/pod/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://localhost:8888/p-dpa/wp/vocabulary/#technology> "Touchscreen" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://localhost:8888/p-dpa/wp/vocabulary/#technology> <http://localhost:8888/p-dpa/wp/tech/pod/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/source> <http://www.sixthirty.pm/portfolio/collate> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/isPartOf> _:arcabb0b1 . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arcabb0b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arcabb0b1 <http://purl.org/dc/terms/title> "London Design Festival" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arcabb0b1 <http://schema.org/location> "V&A Museum" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arcabb0b1 <http://schema.org/startDate> "2013-09-14" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arcabb0b1 <http://schema.org/endDate> "2013-09-22" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arcabb0b1 <http://purl.org/dc/terms/source> <http://www.londondesignfestival.com/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/rights> "Copyright of the author" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/subject> " 												collaboration, graphic design, process												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-22" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/identifier> "141" . 
+}
+		
+
+Wed Dec 25 11:39:55 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/title> "Collate" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/creator> <http://localhost:8888/p-dpa/wp/creator/six-thirty/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/date> "2013" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/description> "Collate is a project exploring the possibilities of digital collaboration. An installation commissioned by London Design Festival allowed visitors to take part in creating an image based book at the V&A Museum." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/pod/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://localhost:8888/p-dpa/wp/vocabulary/#technology> "Touchscreen" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://localhost:8888/p-dpa/wp/vocabulary/#technology> <http://localhost:8888/p-dpa/wp/tech/pod/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/source> <http://www.sixthirty.pm/portfolio/collate> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/isPartOf> _:arc36fab1 . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc36fab1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc36fab1 <http://purl.org/dc/terms/title> "London Design Festival" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc36fab1 <http://schema.org/location> "V&A Museum" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc36fab1 <http://schema.org/startDate> "2013-09-14" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc36fab1 <http://schema.org/endDate> "2013-09-22" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc36fab1 <http://purl.org/dc/terms/source> <http://www.londondesignfestival.com/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/rights> "Copyright of the author" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/subject> " 												collaboration, graphic design, process												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-22" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/identifier> "141" . 
+}
+		
+
+Wed Dec 25 11:41:47 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/title> "Collate" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/creator> <http://localhost:8888/p-dpa/wp/creator/six-thirty/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/date> "2013" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/description> "Collate is a project exploring the possibilities of digital collaboration. An installation commissioned by London Design Festival allowed visitors to take part in creating an image based book at the V&A Museum." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/pod/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://localhost:8888/p-dpa/wp/vocabulary/#technology> "Touchscreen" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://localhost:8888/p-dpa/wp/vocabulary/#technology> <http://localhost:8888/p-dpa/wp/tech/pod/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/source> <http://www.sixthirty.pm/portfolio/collate> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/isPartOf> _:arc400fb1 . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc400fb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc400fb1 <http://purl.org/dc/terms/title> "London Design Festival" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc400fb1 <http://schema.org/location> "V&A Museum" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc400fb1 <http://schema.org/startDate> "2013-09-14" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc400fb1 <http://schema.org/endDate> "2013-09-22" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc400fb1 <http://purl.org/dc/terms/source> <http://www.londondesignfestival.com/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/rights> "Copyright of the author" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/subject> " 												collaboration, graphic design, process												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-22" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/identifier> "141" . 
+}
+		
+
+Wed Dec 25 11:45:54 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/title> "Collate" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/creator> <http://localhost:8888/p-dpa/wp/creator/six-thirty/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/date> "2013" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/description> "Collate is a project exploring the possibilities of digital collaboration. An installation commissioned by London Design Festival allowed visitors to take part in creating an image based book at the V&A Museum." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/pod/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://localhost:8888/p-dpa/wp/vocabulary/#technology> "Touchscreen" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://localhost:8888/p-dpa/wp/vocabulary/#technology> <http://localhost:8888/p-dpa/wp/tech/pod/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/source> <http://www.sixthirty.pm/portfolio/collate> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/isPartOf> _:arc1462b1 . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc1462b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc1462b1 <http://purl.org/dc/terms/title> "London Design Festival" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc1462b1 <http://schema.org/location> "V&A Museum" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc1462b1 <http://schema.org/startDate> "2013-09-14" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc1462b1 <http://schema.org/endDate> "2013-09-22" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arc1462b1 <http://purl.org/dc/terms/source> <http://www.londondesignfestival.com/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/rights> "Copyright of the author" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/subject> " 												collaboration, graphic design, process												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-22" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/identifier> "141" . 
+}
+		
+
+Wed Dec 25 11:46:36 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/title> "Collate" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/creator> <http://localhost:8888/p-dpa/wp/creator/six-thirty/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/date> "2013" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/description> "Collate is a project exploring the possibilities of digital collaboration. An installation commissioned by London Design Festival allowed visitors to take part in creating an image based book at the V&A Museum." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/medium> <http://localhost:8888/p-dpa/wp/medium/pod/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://localhost:8888/p-dpa/wp/vocabulary/#technology> "Touchscreen" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://localhost:8888/p-dpa/wp/vocabulary/#technology> <http://localhost:8888/p-dpa/wp/tech/pod/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/source> <http://www.sixthirty.pm/portfolio/collate> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/isPartOf> _:arca0f1b1 . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arca0f1b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arca0f1b1 <http://purl.org/dc/terms/title> "London Design Festival" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arca0f1b1 <http://schema.org/location> "V&A Museum" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arca0f1b1 <http://schema.org/startDate> "2013-09-14" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arca0f1b1 <http://schema.org/endDate> "2013-09-22" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	_:arca0f1b1 <http://purl.org/dc/terms/source> <http://www.londondesignfestival.com/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/rights> "Copyright of the author" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/subject> " 												collaboration, graphic design, process												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-22" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/collate/> {
+	<http://localhost:8888/p-dpa/wp/work/collate/> <http://purl.org/dc/terms/identifier> "141" . 
+}
+		
+
+Wed Dec 25 11:47:17 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://xmlns.com/foaf/0.1/name> "Six:Thirty" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://xmlns.com/foaf/0.1/bio> "As designers and technologists, we use a broad range of experience to deliver projects for brands and cultural institutions. Weâre inspired by the potential of technology to transform our everyday lives, and use self-initiated projects to inform our commercial output." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://xmlns.com/foaf/0.1/homepage> <http://www.sixthirty.pm> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-22" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/six-thirty/> {
+	<http://localhost:8888/p-dpa/wp/creator/six-thirty/> <http://purl.org/dc/terms/identifier> "143" . 
+}
+		
+
+Wed Dec 25 11:47:25 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/sixthirty-interview/> {
+	<http://localhost:8888/p-dpa/wp/sixthirty-interview/> <http://purl.org/dc/terms/title> "Interview with Six:Thirty about Collate, an Experiment in Collaborative Publishing" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/sixthirty-interview/> {
+	<http://localhost:8888/p-dpa/wp/sixthirty-interview/> <http://purl.org/dc/terms/creator> <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/sixthirty-interview/> {
+	<http://localhost:8888/p-dpa/wp/sixthirty-interview/> <http://purl.org/dc/terms/date> "2013-11-9" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/sixthirty-interview/> {
+	<http://localhost:8888/p-dpa/wp/sixthirty-interview/> <http://purl.org/dc/terms/identifier> "72" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/sixthirty-interview/> {
+	<http://localhost:8888/p-dpa/wp/sixthirty-interview/> <http://purl.org/dc/terms/relation> "http://localhost:8888/p-dpa/wp/work/collate/" . 
+}
+		
+
+Wed Dec 25 11:48:01 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
+	<http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
+	<http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> <http://xmlns.com/foaf/0.1/name> "Silvio Lorusso" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
+	<http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> <http://xmlns.com/foaf/0.1/bio> "Silvio Lorusso is an Italian artist and designer. As PhD candidate in Design Sciences at Iuav University of Venice, he investigates the intersections between publishing and digital technology from the perspective of art and design. This archive is curated by him." . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
+	<http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> <http://xmlns.com/foaf/0.1/homepage> <http://silviolorusso.com> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
+	<http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> <http://purl.org/dc/terms/dateSubmitted> "2013-11-8" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> {
+	<http://localhost:8888/p-dpa/wp/creator/silvio-lorusso/> <http://purl.org/dc/terms/identifier> "58" . 
+}
+		
+
+Wed Dec 25 11:48:11 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/tech/pod/> {
+	<http://localhost:8888/p-dpa/wp/tech/pod/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/tech/pod/> {
+	<http://localhost:8888/p-dpa/wp/tech/pod/> <http://purl.org/dc/terms/title> "Print on Demand" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/tech/pod/> {
+	<http://localhost:8888/p-dpa/wp/tech/pod/> <http://purl.org/dc/terms/description> "Print on demand (POD) is a printing technology and business process in which new copies of a book (or other document) are not printed until an order has been received, which means books can be printed one at a time. While build to order has been an established business model in many other industries, “print on demand” developed only after digital printing began, because it was not economical to print single copies using traditional printing technology such as letterpress and offset printing. (Wikipedia)" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/tech/pod/> {
+	<http://localhost:8888/p-dpa/wp/tech/pod/> <http://purl.org/dc/terms/identifier> "213" . 
+}
+		
+
