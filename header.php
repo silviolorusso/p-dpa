@@ -77,6 +77,21 @@
 						        </div>
 					        </form>
 					    </div>
+					    <!-- Begin MailChimp Signup Form -->
+						<div id="mc_embed_signup">
+						<form action="http://p-dpa.us3.list-manage1.com/subscribe/post?u=8e6a19c592baa05a72c42a8d7&amp;id=d58a595c96" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						    <div style="position: absolute; left: -5000px;"><input type="text" name="b_8e6a19c592baa05a72c42a8d7_d58a595c96" value=""></div>
+						    <div id="inputs">
+								<input type="email" onfocus="if(this.value=='Your Email') this.value='';" onblur="if(this.value=='') this.value='Your Email';" value="Your Email" name="EMAIL" class="required email" id="mce-EMAIL">
+								<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+						    </div>
+						</form>
+						</div>
+						<!--End mc_embed_signup-->
 					    <p><a href="https://www.facebook.com/postdigitalpublishingarchive">Facebook</a> &nbsp; <a href="https://twitter.com/p_dpa">Twitter</a> &nbsp; <a href="<?php echo home_url(); ?>/work/feed">RSS</a></p>
 					</div>
 				</div>

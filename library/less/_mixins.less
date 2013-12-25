@@ -199,49 +199,18 @@ BUTTONS
 *********************/
 
 .button, .button:visited {
-	border: 1px solid darken(@bones-pink, 13%);
-	border-top-color: darken(@bones-pink, 7%);
-	border-left-color: darken(@bones-pink, 7%);
+	border: 2px solid @black;
 	padding: 4px 12px;
 	color: @white;
-	display: inline-block;
-	font-size: 11px;
-	font-weight: bold;
 	text-decoration: none;
-	text-shadow: 0 1px rgba(0,0,0, .75);
 	cursor: pointer;
-	margin-bottom: 20px;
 	line-height: 21px;
 	.transition();
-	.border-radius(4px);
-	.css-gradient(@bones-pink,darken(@bones-pink, 5%));
+	background-color: @black;
 
 	&:hover, &:focus {
-		color: @white;
-	  border: 1px solid darken(@bones-pink, 13%);
-	  border-top-color: darken(@bones-pink, 20%);
-	 	border-left-color: darken(@bones-pink, 20%);
-		.css-gradient(darken(@bones-pink, 5%),darken(@bones-pink, 10%));
-	}
-	
-	&:active {
-		.css-gradient(darken(@bones-pink, 5%),@bones-pink);
-	}	
-}
-
-.blue-button, .blue-button:visited {
-	border-color: darken(@bones-blue, 10%);
-	text-shadow: 0 1px 1px darken(@bones-blue, 10%);
-	.css-gradient( @bones-blue, darken(@bones-blue, 5%) );
-	-webkit-box-shadow: inset 0 0 3px lighten(@bones-blue, 16%);
-       -moz-box-shadow: inset 0 0 3px lighten(@bones-blue, 16%);
-   	        box-shadow: inset 0 0 3px lighten(@bones-blue, 16%);
-	&:hover, &:focus {
-		border-color: darken(@bones-blue, 15%);
-		.css-gradient( darken(@bones-blue, 4%), darken(@bones-blue, 10%) );
-	}
-	&:active {
-		.css-gradient( darken(@bones-blue, 5%), @bones-blue );
+		background-color: @white;
+		color: @black;
 	}
 }
 

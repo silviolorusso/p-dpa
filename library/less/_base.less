@@ -181,6 +181,7 @@ h5, .h5 {
 		font-family: @ocrf;
 		font-weight: normal;
 		font-size: 1.4em;
+		line-height: 1.6em;
 		padding-bottom: 1.8em;
 		br {
 			display: none;
@@ -190,6 +191,18 @@ h5, .h5 {
 		width: 100%;
 		border: 2px solid @black;
 		padding: 10px;
+		color: lighten(@black, 70%);
+	}
+	#inputs {
+		margin-top: 20px;
+		width: 100%;
+		#mce-EMAIL {
+			border: 2px solid @black;
+			padding: 10px;
+			width: 50%;	
+			margin-right: 1em;
+			color: lighten(@black, 70%);
+		}
 	}
 }
 
