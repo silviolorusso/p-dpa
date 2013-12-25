@@ -2,19 +2,19 @@
 			<div id="content">
 				<div id="inner-content" class="wrap clearfix">
 					<div id="main" class="eightcol first clearfix" role="main">
-						<h5 class="mini-title">Author</h5>
+						<h5 class="mini-title">Platform</h5>
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 							<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-								<section id="metadata" class="entry-content clearfix" prefix="<?php my_vocabs(); ?>" about="<?php the_permalink(); ?>" typeof="foaf:Person">
+								<section id="metadata" class="entry-content clearfix" prefix="<?php my_vocabs(); ?>" about="<?php the_permalink(); ?>" typeof="foaf:Organization">
 									<table class="table">
 										<tbody>
 											<tr>
-												<td><p>Who</p></td>
-												<td><h3 property="foaf:name"><?php the_title(); ?></h3></td>
+												<td><p>Name</p></td>
+												<td><h3 property="dcterms:title"><?php the_title(); ?></h3></td>
 											</tr>
 											<tr>
-												<td><p>Bio</p></td>
-												<td><p property="foaf:bio"><?php the_content(); ?></p></td>
+												<td><p>Description</p></td>
+												<td><p property="dcterms:description"><?php the_content(); ?></p></td>
 											</tr>
 											<?php
 											$titles = types_render_field("section-title", array("separator" => "%%"));
@@ -77,14 +77,14 @@
 						'.my_vocabs_query().'
 						SELECT distinct ?url ?title ?date
 						WHERE	{
-							?url dcterms:creator <'.get_permalink().'> .
+							?url pdpa:platform <'.get_permalink().'> .
 							?url dcterms:title ?title .
 							?url dcterms:date ?date .
 						}
 					';
 					$result = $store->query($query, 'rows');
 					if (!empty($result)) : ?>
-						<h5>By <?php the_title(); ?></h5>
+						<h5>Related Works</h5>
 						<?php foreach ($result as $row) : ?>
 							<a href="<?php echo $row['url'] ?>">
 								<table class="table">
@@ -92,6 +92,28 @@
 										<tr>
 											<td><p>Title</p></td>
 											<td><p><?php echo $row['title'] ?></p></td>
+										</tr>
+										<tr>
+											<?php 
+											$query2 = '
+												'.my_vocabs_query().'
+												SELECT ?url ?name
+												WHERE	{
+													<'.$row['url'].'> dcterms:creator ?url .
+													?url foaf:name ?name .						
+												}
+											';
+											$result2 = $store->query($query2, 'rows'); ?>
+											<td><p>Author</p></td>
+											<td><p>
+											<?php 
+											$names = array();
+											foreach ($result2 as $row2) {
+												array_push($names, $row2['name']);
+											}
+											echo implode(', ', $names); 
+											?> 
+											</p></td>
 										</tr>
 										<tr>
 											<td><p>Date</p></td>

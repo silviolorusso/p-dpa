@@ -283,6 +283,35 @@ function my_custom_post_media() {
 }
 add_action( 'init', 'my_custom_post_media' );
 
+// Custom Post "Platform"
+function my_custom_post_platform() {
+	$labels = array(
+		'name'               => _x( 'Platforms', 'post type general name' ),
+		'singular_name'      => _x( 'Platform', 'post type singular name' ),
+		'add_new'            => _x( 'Add New', 'author' ),
+		'add_new_item'       => __( 'Add New Platform' ),
+		'edit_item'          => __( 'Edit Platform' ),
+		'new_item'           => __( 'New Platform' ),
+		'all_items'          => __( 'All Platforms' ),
+		'view_item'          => __( 'View Platform' ),
+		'search_items'       => __( 'Search Platforms' ),
+		'not_found'          => __( 'No platforms found' ),
+		'not_found_in_trash' => __( 'No platforms found in the Trash' ), 
+		'parent_item_colon'  => '',
+		'menu_name'          => 'Platforms'
+	);
+	$args = array(
+		'labels'        => $labels,
+		'description'   => 'Platforms employed in the works',
+		'public'        => true,
+		'menu_position' => 9,
+		'supports'      => array( 'title', 'editor', 'thumbnail', 'revisions' ),
+		'has_archive'   => true,
+	);
+	register_post_type( 'platform', $args );
+}
+add_action( 'init', 'my_custom_post_platform' );
+
 
 // Fix Homepage Pagination
 if ( !is_admin() ) add_filter( 'pre_get_posts', 'my_get_posts' );

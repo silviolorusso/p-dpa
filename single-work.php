@@ -9,7 +9,7 @@
 									<table class="table">
 										<tbody>
 											<tr>
-												<td><h3>Title</h3></td>
+												<td><p>Title</p></td>
 												<td><h3 property="dcterms:title"><?php the_title(); ?></h3></td>
 											</tr>
 											<tr>
@@ -44,6 +44,7 @@
 													</p>
 												</td>
 											</tr>
+											<tr>
 											<?php $i++; ?>
 											<?php } ?>
 											<?php
