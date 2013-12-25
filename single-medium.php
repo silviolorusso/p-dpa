@@ -19,7 +19,6 @@
 						foreach ($result as $row) {
 							array_push($ids, $row['id']);
 						}
-						print_r($ids);
 						$args = array('post_type' => 'work', 'paged' => $paged, 'post__in' => $ids );
 						$the_query = new WP_Query( $args ); 
 						?>
