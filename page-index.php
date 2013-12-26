@@ -21,10 +21,11 @@ Template Name: Index
 										// All Artists						
 										$query = '
 											'.my_vocabs_query().'
-											SELECT distinct ?url ?name 
+											SELECT ?url ?name 
 											WHERE	{
 												?url foaf:name ?name
 											}
+											ORDER BY ?name
 										';
 										$result = $store->query($query, 'rows');
 										if (!empty($result)) : ?>
@@ -49,11 +50,12 @@ Template Name: Index
 										// All Works						
 										$query = '
 											'.my_vocabs_query().'
-											SELECT distinct ?url ?title 
+											SELECT ?url ?title 
 											WHERE	{
 												?url <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> dcterms:MediaType .
 												?url dcterms:title ?title
 											}
+											ORDER BY ?title
 										';
 										$result = $store->query($query, 'rows');
 										if (!empty($result)) : ?>
@@ -78,11 +80,12 @@ Template Name: Index
 										// All Media						
 										$query = '
 											'.my_vocabs_query().'
-											SELECT distinct ?url ?url2 ?name 
+											SELECT DISTINCT ?url2 ?name 
 											WHERE	{
 												?url dcterms:medium ?url2 .
 												?url2 dcterms:title ?name .
 											}
+											ORDER BY ?name
 										';
 										$result = $store->query($query, 'rows');
 										if (!empty($result)) : ?>
@@ -107,11 +110,12 @@ Template Name: Index
 										// All Technologies						
 										$query = '
 											'.my_vocabs_query().'
-											SELECT distinct ?url ?url2 ?name 
+											SELECT DISTINCT ?url2 ?name 
 											WHERE	{
 												?url pdpa:technology ?url2 .
 												?url2 dcterms:title ?name .
 											}
+											ORDER BY ?name
 										';
 										$result = $store->query($query, 'rows');
 										if (!empty($result)) : ?>
@@ -136,7 +140,7 @@ Template Name: Index
 										// All Platforms						
 										$query = '
 											'.my_vocabs_query().'
-											SELECT distinct ?url ?url2 ?name 
+											SELECT DISTINCT ?url2 ?name 
 											WHERE	{
 												?url pdpa:platform ?url2 .
 												?url2 dcterms:title ?name .
