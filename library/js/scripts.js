@@ -60,6 +60,9 @@ jQuery(document).ready(function($) {
 		// Distribute Articles Evenly
 		$(window).on("resize", function () {
 			distrib();
+			setTimeout(function (){
+	           $(window).resize(); // avoid #main glitch
+	        }, 50)
 		}).resize();
 	
 	} /* end larger than 481px */
@@ -112,9 +115,6 @@ jQuery(document).ready(function($) {
 	function( newElements ) {
 	    var $newElems = $( newElements );
 	    $container.masonry( 'appended', $newElems );
-	    setTimeout(function (){
-           distrib(); // avoid #main glitch
-         }, 100)
 	  }
 	);
 }); /* end of as page load scripts */
