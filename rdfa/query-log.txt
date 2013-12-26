@@ -23466,3 +23466,55 @@ INSERT INTO <http://localhost:8888/p-dpa/wp/medium/book/> {
 }
 		
 
+Thu Dec 26 13:52:50 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/medium/book/> {
+	<http://localhost:8888/p-dpa/wp/medium/book/> <http://purl.org/dc/terms/title> "Book" . 
+}
+		
+
+Thu Dec 26 13:52:56 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/medium/book/> {
+	<http://localhost:8888/p-dpa/wp/medium/book/> <http://purl.org/dc/terms/title> "Book" . 
+}
+		
+
+Thu Dec 26 13:53:29 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/medium/book/> {
+	<http://localhost:8888/p-dpa/wp/medium/book/> <http://purl.org/dc/terms/title> "Book" . 
+}
+		
+
+Thu Dec 26 13:53:59 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/medium/book/> {
+	<http://localhost:8888/p-dpa/wp/medium/book/> <http://purl.org/dc/terms/title> "Book" . 
+}
+		
+

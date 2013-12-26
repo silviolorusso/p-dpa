@@ -2,7 +2,7 @@
 			<div id="content">
 				<div id="inner-content" class="wrap clearfix">
 					<div id="main" class="clearfix main-index" role="main">
-						<section id="metadata" prefix="<?php my_vocabs(); ?>" about="<?php the_permalink(); ?>" typeof="dcterms:MediaType">
+						<section id="metadata" prefix="<?php my_vocabs(); ?>" about="<?php the_permalink(); ?>">
 							<h5 class="mini-title">Medium: <span property="dcterms:title"><?php the_title(); ?></span></h5>
 						</section>
 						<?php
