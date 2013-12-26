@@ -2,7 +2,9 @@
 			<div id="content">
 				<div id="inner-content" class="wrap clearfix">
 					<div id="main" class="clearfix main-index" role="main">
-						<h5 class="mini-title">Medium: <?php the_title(); ?></h5>
+						<section id="metadata" prefix="<?php my_vocabs(); ?>" about="<?php the_permalink(); ?>" typeof="dcterms:MediaType">
+							<h5 class="mini-title">Medium: <span property="dcterms:title"><?php the_title(); ?></span></h5>
+						</section>
 						<?php
 						require_once'wp-content/themes/p-dpa/rdfa/lib/arc2/ARC2.php';
 						include_once('wp-content/themes/p-dpa/rdfa/connect_to_store.php');
