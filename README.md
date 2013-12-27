@@ -1,30 +1,10 @@
-# Bones
-__A Lightweight Wordpress Development Theme__
+# P—DPA theme
 
-Bones is designed to make the life of developers easier. It's built
-using HTML5 & has a strong semantic foundation. It was updated recently
-using some of the HTML5 Boilerplate's recommended markup and setup.
-It's constantly growing so be sure to check back often if you are a
-frequent user. I'm always open to contribution. :)
+This is the Wordpress theme of [P—DPA](http://p-dpa.net/), an archive of projects and artworks at the intersection of publishing and digital technology.
 
-Designed by **Eddie Machado**: http://themble.com/bones
+P—DPA.net is powered by [WordPress](http://wordpress.com/). Its theme is based on [Bones](http://themble.com/bones/) by Eddie Machado. It employes [ARC2](https://github.com/semsol/arc2) and [EasyRdf](http://www.easyrdf.org/) PHP libraries. The repo is on [GitHub](https://github.com/silviolorusso/p-dpa).
 
-Special Thanks to:
-* Paul Irish & the HTML5 Boilerplate
-* Yoast for some WP functions & optimization ideas
-* Andrew Rogers for code optimization
-* David Dellanave for speed & code optimization
-* and several other developers. :)
-
-Submit Bugs & or Fixes:
-https://github.com/eddiemachado/bones/issues
 
 
 ## License
 __[WTFPL](http://sam.zoy.org/wtfpl/)__
-
-	Are You Serious? Yes.
-
-
-## Meta
-* [Changelog](../../blob/master/CHANGELOG.md)
