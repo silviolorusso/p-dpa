@@ -38,6 +38,9 @@ function send_record($base, $post_id){
 	// if only this worked: $triples = $graph->toArray();
 	$rdf = $graph->serialise('rdf');
 	
+	// decode UTF-8
+	$rdf = utf8_decode($rdf);
+	
 	$config = array('auto_extract' => 0);
 	$parser = ARC2::getRDFParser();
 	$parser->parse($base, $rdf);
