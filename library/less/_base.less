@@ -39,47 +39,6 @@ body {
 	color: @black;
 }
 
-/********************
-02. WORDPRESS BODY CLASSES
-    style a page via class
-********************/
-
-.rtl {}                           /* for sites that are read right to left (i.e. hebrew) */
-.home {}                          /* home page */
-.blog {}                          /* blog template page */
-.archive {}                       /* archive page */
-.date {}                          /* date archive page */
-	.date-paged-1 {}                /* replace the number to the corresponding page number */
-.search {}                        /* search page */
-	.search-results {}              /* search result page */
-	.search-no-results {}           /* no results search page */
-	.search-paged-1 {}              /* individual paged search (i.e. body.search-paged-3) */
-.error404 {}                      /* 404 page */
-.single {}                        /* single post page */
-	.postid-1 {}                    /* individual post page by id (i.e. body.postid-73) */
-	.single-paged-1 {}              /* individual paged single (i.e. body.single-paged-3) */
-.attachment {}                    /* attatchment page */
-	.attachmentid-1 {}              /* individual attatchment page (i.e. body.attachmentid-763) */
-	.attachment-mime-type {}        /* style mime type pages */
-.author {}                        /* author page */
-	.author-nicename {}             /* user nicename (i.e. body.author-samueladams) */
-	.author-paged-1 {}              /* paged author archives (i.e. body.author-paged-4) for page 4 */
-.category {}                      /* category page */
-	.category-1 {}                  /* individual category page (i.e. body.category-6) */
-	.category-paged-1 {}            /* replace the number to the corresponding page number */
-.tag {}                           /* tag page */
-	.tag-slug {}                    /* individual tag page (i.e. body.tag-news) */
-	.tag-paged-1 {}                 /* replace the number to the corresponding page number */
-.page-template {}                 /* custom page template page */
-	.page-template-page-php {}      /* individual page template (i.e. body.page-template-contact-php */
-	.page-paged-1 {}                /* replace the number to the corresponding page number */
-	.page-parent {}                 /* parent page template */
-	.page-child {}                  /* child page template */
-	.parent-pageid-1 {}             /* replace the number to the corresponding page number */
-.logged-in {}                     /* if user is logged in */
-.paged {}                         /* paged items like search results or archives */
-	.paged-1 {}                     /* individual paged (i.e. body.paged-3) */
-
 /*********************
 03. LAYOUT & GRID STYLES
 *********************/
@@ -215,14 +174,6 @@ h5, .h5 {
 07. NAVIGATION STYLES
 *********************/
 
-/*
-all navs have a .nav class applied via
-the wp_menu function; this is so we can
-easily write one group of styles for
-the navs on the site so our css is cleaner
-and more scalable.
-*/
-
 nav {
 	#menu-button{
 		cursor: pointer;
@@ -264,40 +215,15 @@ nav {
 			text-decoration: none;
 			margin: 10px 20px;
 		}
-		&:first-child {}
-		&:last-child {}
-		/*
-		so you really have to rethink your dropdowns for mobile.
-		you don't want to have it expand too much because the
-		screen is so small. How you manage your menu should
-		depend on the project. Here's some great info on it:
-		http://www.alistapart.com/articles/organizing-mobile/
-		*/
 		ul.sub-menu,
 		ul.children {
-
 			li {
-
 				a {
 					padding-left: 30px;
-
-					&:hover,
-					&:focus {}
-
-					&:link {}
-
 				}
-
-				&:first-child {}
-
-				&:last-child {}
-
 			}
-
 		}
-
 	} /* end .menu li */
-
 	/* highlight current page */
 	li.current-menu-item,
 	li.current_page_item,
@@ -322,154 +248,71 @@ nav {
 		}
 	}
 }
+/* entry content */
+.entry-content {
+	ul, ol {
+		list-style: disc;
+		padding-left: 1em;
+	}
+	img {
+		margin: 0 0 0.8em 0;
+		max-width: 100%;
+		max-height: 800px !important;
+		width: auto !important;
+		height: auto;
+	}
+	a:last-child img {
+		margin: 0;
+	}
+	video, object, iframe, div.fluid-width-video-wrapper {
+		margin: 0 0 0.9em 0;
+	}
+	pre {
+		background: #eee;
+		border: 1px solid #cecece;
+		padding: 10px;
+	}
+} /* end .entry-content */
 
-		.hentry {
+.wp-caption {
+	max-width: 100%;
+	margin: 0 0 1.5em 0;
+	position: relative;
 
-			header {}
+	img {
+		max-width: 100%;
+		margin-bottom: 0;
+		width: 100%;
+	}
+	p.wp-caption-text {
+		font-size: 0.7em;
+		margin: 0;
+		position: absolute;
+		display: none;
+		top:0;
+		width: 100%;
+		font-weight: normal;
+		padding: 0.5em;
+		background-color: @white;
+		
+	}
+	&:hover p.wp-caption-text {
+		display: block;
+	}
+} /* end .wp-caption */
 
-			footer {}
+/* image gallery styles */
+.gallery {
+	dt {
+		float: left;
+		margin-right: 1em;
+	}
+} /* end .gallery */
 
-		} /* end .hentry */
-
-		.single-title,
-		.page-title {}
-
-		.single-title {}
-
-		.page-title {}
-
-		.archive-title { }
-
-		/* want to style individual post classes? Booya! */
-		.post-id {}         /* post by id (i.e. post-3) */
-		.post {}            /* general post style */
-		.page {}            /* general article on a page style */
-		.attachment {}      /* general style on an attatchment */
-		.sticky {}          /* sticky post style */
-		.hentry {}          /* hentry class */
-		.category-slug {}   /* style by category (i.e. category-videos) */
-		.tag-slug {}        /* style by tag (i.e. tag-news) */
-
-		/* post meta */
-		.byline {
-			time {}
-		}
-
-		/* entry content */
-		.entry-content {
-
-			p {}
-
-
-			ul, ol, table, dl {}
-
-			ul, ol {
-				list-style: disc;
-				padding-left: 1em;
-				li {}
-
-			}
-
-			ul {
-
-				li {}
-
-			}
-
-			ol {
-
-				li {}
-
-			}
-
-			blockquote {
-
-				&:before {}
-
-			}
-
-			dl {}
-
-			dt {}
-
-			img {
-				margin: 0 0 0.8em 0;
-				max-width: 100%;
-				max-height: 800px !important;
-				width: auto !important;
-				height: auto;
-			}
-			a:last-child img {
-				margin: 0;
-			}
-
-			/*
-			image alignment on a screen this size may be
-			a bit difficult. It's set to start aligning
-			and floating images at the next breakpoint,
-			but it's up to you. Feel free to change it up.
-			*/
-			.alignleft, img.alignleft {}
-			.alignright, img.alignright {}
-			.aligncenter, img.aligncenter {}
-
-			video, object, iframe, div.fluid-width-video-wrapper {
-				margin: 0 0 0.9em 0;
-			}
-
-			pre {
-				background: #eee;
-				border: 1px solid #cecece;
-				padding: 10px;
-			}
-
-		} /* end .entry-content */
-
-		.wp-caption {
-			max-width: 100%;
-			margin: 0 0 1.5em 0;
-			position: relative;
-
-			img {
-				max-width: 100%;
-				margin-bottom: 0;
-				width: 100%;
-			}
-			p.wp-caption-text {
-				font-size: 0.7em;
-				margin: 0;
-				position: absolute;
-				display: none;
-				top:0;
-				width: 100%;
-				font-weight: normal;
-				padding: 0.5em;
-				background-color: @white;
-				
-			}
-			&:hover p.wp-caption-text {
-				display: block;
-			}
-		} /* end .wp-caption */
-
-		/* image gallery styles */
-		.gallery {
-			dt {
-				float: left;
-				margin-right: 1em;
-			}
-		} /* end .gallery */
-
-		/* gallery caption styles */
-		.gallery-caption {
-			display: none;
-		}
-
-		.size-full {}
-		.size-large {}
-		.size-medium {}
-		.size-thumbnail {}
-
+/* gallery caption styles */
+.gallery-caption {
+	display: none;
+}
 
 .table {
 	width: 100%;
@@ -518,14 +361,12 @@ a .table:hover {
 nav.page-navigation {
 	display: none;
 } 
-
 div#infscr-loading {
 	position: absolute;
 	width: 100%;
 	text-align: center;
 	bottom: -10px;
 }
-
 .page-navigation,
 .wp-prev-next {
 	margin: 1.1em 0 2.2em;
@@ -541,41 +382,27 @@ div#infscr-loading {
 				display: block;
 				text-decoration: none;
 				position: relative;
-
 				&:hover,
 				&:focus {
 					color: #f01d4f;
 					text-decoration: underline;
 				}
 			}
-
 		}
-
 		/* current page link */
 		li.bpn-current {
 			padding: 3px 6px;
 			border-bottom: 2px solid #f01d4f;
 			position: relative;
-
-			a {
-				/* hovering on current page link */
-				&:hover,
-				&:focus {}
-
-			}
-
 		} /* end .bones_page_navi .bpn-current */
-
 		/* common styles for page-navi links */
 		li.bpn-prev-link,
 		li.bpn-next-link {
 			font-weight: 700;
-
 			a {
 				padding: 0;
 			}
 		}
-
 		/* remove the bg on end links */
 		li.bpn-prev-link a:hover,
 		li.bpn-next-link a:hover,
@@ -583,54 +410,16 @@ div#infscr-loading {
 		li.bpn-last-page-link a:hover {
 			background: none;
 		}
-
-		/* previous link */
-		li.bpn-prev-link {
-			a {
-				&:hover,
-				&:focus {}
-			}
-		}
-
-		/* next page link */
-		li.bpn-next-link {
-			a {
-				&:hover,
-				&:focus {}
-			}
-		}
-
-		/* first page link */
-		li.bpn-first-page-link {
-			a {
-				&:hover,
-				&:focus {}
-			}
-		}
-
-		/* last page link */
-		li.bpn-last-page-link {
-			a {
-				&:hover,
-				&:focus {}
-			}
-		}
-
 	} /* end .bones_page_navi */
 
 	/* fallback previous & next links */
 	.wp-prev-next {
-
-		ul {}
-
 		.prev-link {
 			float: left;
 		}
-
 		.next-link {
 			float: right;
 		}
-
 	} /* end .wp-prev-next */
 
 /******************************************************************
@@ -901,36 +690,7 @@ div#infscr-loading {
 	.nocomments {
 		margin: 0 20px 1.1em;
 	}
-
-/*********************
-12. SIDEBARS & ASIDES
-*********************/
-
-.sidebar {}
-
-	.widgettitle {}
-
-	.widget {
-
-		ul {
-
-			li {
-
-				&:first-child {}
-
-				&:last-child {}
-
-				a {}
-
-				/* deep nesting */
-				ul {}
-
-			}
-
-		}
-
-	}
-
+	
 /*********************
 13. FOOTER STYLES
 *********************/

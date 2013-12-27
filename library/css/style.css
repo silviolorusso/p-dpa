@@ -705,45 +705,6 @@ body {
   line-height: 1.5;
   color: #000000;
 }
-/********************
-02. WORDPRESS BODY CLASSES
-    style a page via class
-********************/
-/* for sites that are read right to left (i.e. hebrew) */
-/* home page */
-/* blog template page */
-/* archive page */
-/* date archive page */
-/* replace the number to the corresponding page number */
-/* search page */
-/* search result page */
-/* no results search page */
-/* individual paged search (i.e. body.search-paged-3) */
-/* 404 page */
-/* single post page */
-/* individual post page by id (i.e. body.postid-73) */
-/* individual paged single (i.e. body.single-paged-3) */
-/* attatchment page */
-/* individual attatchment page (i.e. body.attachmentid-763) */
-/* style mime type pages */
-/* author page */
-/* user nicename (i.e. body.author-samueladams) */
-/* paged author archives (i.e. body.author-paged-4) for page 4 */
-/* category page */
-/* individual category page (i.e. body.category-6) */
-/* replace the number to the corresponding page number */
-/* tag page */
-/* individual tag page (i.e. body.tag-news) */
-/* replace the number to the corresponding page number */
-/* custom page template page */
-/* individual page template (i.e. body.page-template-contact-php */
-/* replace the number to the corresponding page number */
-/* parent page template */
-/* child page template */
-/* replace the number to the corresponding page number */
-/* if user is logged in */
-/* paged items like search results or archives */
-/* individual paged (i.e. body.paged-3) */
 /*********************
 03. LAYOUT & GRID STYLES
 *********************/
@@ -900,13 +861,6 @@ h5,
 /*********************
 07. NAVIGATION STYLES
 *********************/
-/*
-all navs have a .nav class applied via
-the wp_menu function; this is so we can
-easily write one group of styles for
-the navs on the site so our css is cleaner
-and more scalable.
-*/
 nav #menu-button {
   cursor: pointer;
   text-align: center;
@@ -943,15 +897,6 @@ nav div.top-nav ul li a {
   /* highlight current page */
   /* end current highlighters */
 }
-.nav li {
-  /*
-		so you really have to rethink your dropdowns for mobile.
-		you don't want to have it expand too much because the
-		screen is so small. How you manage your menu should
-		depend on the project. Here's some great info on it:
-		http://www.alistapart.com/articles/organizing-mobile/
-		*/
-}
 .nav li a {
   display: block;
   text-decoration: none;
@@ -977,26 +922,7 @@ nav div.top-nav ul li a {
 #content #inner-content #main {
   position: relative;
 }
-/* end .hentry */
-/* want to style individual post classes? Booya! */
-/* post by id (i.e. post-3) */
-/* general post style */
-/* general article on a page style */
-/* general style on an attatchment */
-/* sticky post style */
-/* hentry class */
-/* style by category (i.e. category-videos) */
-/* style by tag (i.e. tag-news) */
-/* post meta */
 /* entry content */
-.entry-content {
-  /*
-			image alignment on a screen this size may be
-			a bit difficult. It's set to start aligning
-			and floating images at the next breakpoint,
-			but it's up to you. Feel free to change it up.
-			*/
-}
 .entry-content ul,
 .entry-content ol {
   list-style: disc;
@@ -1131,10 +1057,6 @@ div#infscr-loading {
   /* end .bones_page_navi .bpn-current */
   /* common styles for page-navi links */
   /* remove the bg on end links */
-  /* previous link */
-  /* next page link */
-  /* first page link */
-  /* last page link */
 }
 .bones_page_navi li {
   float: left;
@@ -1155,9 +1077,6 @@ div#infscr-loading {
   padding: 3px 6px;
   border-bottom: 2px solid #f01d4f;
   position: relative;
-}
-.bones_page_navi li.bpn-current a {
-  /* hovering on current page link */
 }
 .bones_page_navi li.bpn-prev-link,
 .bones_page_navi li.bpn-next-link {
@@ -1355,12 +1274,6 @@ div#infscr-loading {
 /* no comments */
 .nocomments {
   margin: 0 20px 1.1em;
-}
-/*********************
-12. SIDEBARS & ASIDES
-*********************/
-.widget ul li {
-  /* deep nesting */
 }
 /*********************
 13. FOOTER STYLES
