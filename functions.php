@@ -349,8 +349,6 @@ function send_metadata( $post_id ) {
 			include_once('rdfa/send_metadata.php');
 			$permalink = get_permalink( $post_id );
 			send_record($permalink, $post_id);
-			// die('sent!');
-			// include_once('rdfa/generate_index.php');
 		}
 	}
 }
@@ -362,8 +360,6 @@ function clear_metadata( $post_id ) {
 		include_once('rdfa/clear_metadata.php');
 		$permalink = get_permalink( $post_id );
 		clear_record($permalink);
-		// die('deleted!');
-		// include_once('rdfa/generate_index.php');
 	}
 }
 add_action( 'trashed_post', 'clear_metadata' );
@@ -392,6 +388,7 @@ function my_vocabs_query() {
 }
 
 // Add the triplestore as a DB in order not to create conflict with WP
-$newdb = new wpdb('root', 'root', 'p-dpa-sparql', 'localhost');
+include_once('rdfa/access_sparql_db.php');
+$newdb = new wpdb($db_user, $db_pass, $db_name, $db_host);
 $newdb->show_errors();
 ?>

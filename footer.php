@@ -1,7 +1,7 @@
 		</div>
 			<footer class="footer" role="contentinfo">
 				<div id="inner-footer" class="wrap">
-					<p>P—DPA is a project by <a href="http://silviolorusso.com">Silvio Lorusso</a> – Follow on <a href="https://www.facebook.com/postdigitalpublishingarchive">Facebook</a> and/or <a href="https://twitter.com/p_dpa">Twitter</a> – <a href="http://localhost:8888/p-dpa/wp/work/feed">RSS</a></p>
+					<p>P—DPA is a project by <a href="http://silviolorusso.com">Silvio Lorusso</a> – Follow on <a href="https://www.facebook.com/postdigitalpublishingarchive">Facebook</a> and/or <a href="https://twitter.com/p_dpa">Twitter</a> – <a href="<?php echo home_url(); ?>/work/feed">RSS</a></p>
 				</div>
 			</footer>
 
