@@ -2,10 +2,6 @@
 /*
 Author: Silvio Lorusso
 URL: http://silviolorusso.com/
-
-This is where you can drop your custom functions or
-just edit things like thumbnail sizes, header images,
-sidebars, comments, ect.
 */
 
 /************* INCLUDE NEEDED FILES ***************/
@@ -418,15 +414,4 @@ function my_vocabs_query() {
 // Add the triplestore as a DB in order not to create conflict with WP
 $newdb = new wpdb('root', 'root', 'p-dpa-sparql', 'localhost');
 $newdb->show_errors();
-
-// Add custom text to the rich text editor
-/*
-function my_default_post($content)
-{
-	if (empty($content))
-		$content = "Your default text";
-	return $content;
-}
-add_filter('the_editor_content', 'my_default_post');
-*/
 ?>
