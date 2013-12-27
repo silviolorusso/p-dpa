@@ -15,8 +15,6 @@ require 'lib/simple_html_dom.php';
 require 'lib/arc2/ARC2.php';
 require 'lib/easyrdf/vendor/autoload.php';
 
-
-
 function send_record($base, $post_id){ 
 	// If item doesn't exist yet: do nothing
 	if (!file_get_html($base)) {

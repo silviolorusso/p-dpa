@@ -41700,3 +41700,187 @@ INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
 }
 		
 
+Fri Dec 27 20:47:05 UTC 2013
+
+
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	<http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	<http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> <http://purl.org/dc/terms/title> "Dear Jeff Bezos" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	<http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> <http://purl.org/dc/terms/creator> <http://localhost:8888/p-dpa/wp/creator/johannes-p-osterhoff/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	<http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> <http://purl.org/dc/terms/date> "2013 - Present" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	<http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> <http://purl.org/dc/terms/description> "Each time I set a bookmark on my Kindle it shall send an automated email about my recent reading to Jeff Bezos and the ones interested. The performance started on Jeff Bezos’ birthday / January 12, 2013 at 8:00 am PST. (Johannes P. Osterhoff)" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	<http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> <http://purl.org/dc/terms/source> <http://bezos.cc/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	<http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> <http://purl.org/dc/terms/medium> "http://localhost:8888/p-dpa/wp/medium/performance/" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	<http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> <http://purl.org/dc/terms/medium> "http://localhost:8888/p-dpa/wp/medium/website/" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	<http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> <http://localhost:8888/p-dpa/wp/vocabulary/#technology> <http://localhost:8888/p-dpa/wp/tech/e-book/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	<http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> <http://localhost:8888/p-dpa/wp/vocabulary/#platform> <http://localhost:8888/p-dpa/wp/platform/amazon/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	<http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> <http://localhost:8888/p-dpa/wp/vocabulary/#platform> <http://localhost:8888/p-dpa/wp/platform/kindle/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	<http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> <http://purl.org/dc/terms/isReferencedBy> _:arc603ab1 . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	_:arc603ab1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Article> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	_:arc603ab1 <http://purl.org/dc/terms/title> "Dear Jeff Bezos" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	_:arc603ab1 <http://purl.org/dc/terms/creator> "Ben Fino-Radin" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	_:arc603ab1 <http://purl.org/dc/terms/source> <http://rhizome.org/editorial/2013/jan/12/dear-jeff-bezos/> . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	_:arc603ab1 <http://purl.org/dc/terms/date> "Jan 12th, 2013" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	<http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> <http://purl.org/dc/terms/subject> " 												control, privacy, reading												" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	<http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> <http://purl.org/dc/terms/dateSubmitted> "2013-12-27" . 
+}
+		
+PREFIX pdpa: <http://localhost:8888/p-dpa/wp/vocabulary/#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+INSERT INTO <http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> {
+	<http://localhost:8888/p-dpa/wp/work/dear-jeff-bezos/> <http://purl.org/dc/terms/identifier> "309" . 
+}
+		
+
