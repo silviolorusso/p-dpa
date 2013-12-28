@@ -52,7 +52,7 @@
 	</head>
 
 	<body <?php body_class(); ?>>
-		<h5 id="beta" style="position:fixed; top: 0; right:0; margin-top:0.2em; margin-right:0.3em; color:red;">BETA!</h5>
+		<h5 id="beta" style="position:fixed; top: 0; right:0; margin-top:0.2em; margin-right:0.3em; color:red; z-index:99999">BETA!</h5>
 		<div id="container">
 			<header class="header" role="banner">
 				<div id="inner-header" class="wrap clearfix">
