@@ -828,7 +828,7 @@ h5,
   max-width: 300px;
   height: 164px;
   max-width: 100%;
-  background: url('http://localhost:8888/p-dpa/wp/wp-content/themes/p-dpa/library/images/logo.png') no-repeat;
+  background: url('http://p-dpa.net/wp-content/themes/p-dpa/library/images/logo.png') no-repeat;
   background-size: contain;
 }
 .header #blog-desc div h2 {
@@ -1615,7 +1615,7 @@ Stylesheet: Retina Screens & Devices Stylesheet
 
 ******************************************************************/
   div#logo-img {
-    background: url('http://localhost:8888/p-dpa/wp/wp-content/themes/p-dpa/library/images/logo@2x.png') no-repeat;
+    background: url('http://p-dpa.net/wp-content/themes/p-dpa/library/images/logo@2x.png') no-repeat;
     background-size: contain;
   }
 }

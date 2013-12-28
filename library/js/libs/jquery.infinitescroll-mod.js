@@ -29,7 +29,7 @@
         loading: {
             finished: undefined,
             finishedMsg: "No more posts to show",
-			img: "http://localhost:8888/p-dpa/wp/wp-content/themes/p-dpa/library/images/nothing.gif",
+			img: "http://p-dpa.net/wp-content/themes/p-dpa/library/images/nothing.gif",
             msg: null,
             msgText: "",
             selector: null,
