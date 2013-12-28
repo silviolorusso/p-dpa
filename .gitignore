@@ -1,5 +1,8 @@
 # folders and files to be ignored by git
 
+rdfa/connect_to_store.php
+rdfa/access_sparql_db.php
+
 ############
 ## OSes
 ############
