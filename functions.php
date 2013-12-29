@@ -319,6 +319,15 @@ if ($query->is_search) {
 }
 add_filter('pre_get_posts','SearchFilter');
 
+/* allow file extensions */
+function addUploadMimes($mimes) {
+    $mimes = array_merge($mimes, array(
+        'epub|mobi|md|py' => 'application/octet-stream'
+    ));
+    return $mimes;
+}
+add_filter('upload_mimes', 'addUploadMimes');
+
 
 /************************************************/
 /************* RDFa Implementations *************/
