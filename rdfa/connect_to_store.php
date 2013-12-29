@@ -6,10 +6,10 @@
 /* MySQL and endpoint configuration */ 
 $config = array(
   /* db */
-  'db_host' => 'localhost', /* optional, default is localhost */
-  'db_name' => 'p-dpa-sparql',
-  'db_user' => 'root',
-  'db_pwd' => 'root',
+  'db_host' => $db_host, /* optional, default is localhost */
+  'db_name' => $db_name,
+  'db_user' => $db_user,
+  'db_pwd' => $db_pass,
 
   /* store name */
   'store_name' => 'my_endpoint_store',
@@ -21,7 +21,7 @@ $config = array(
     'dump' /* dump is a special command for streaming SPOG export */
   ),
   'endpoint_timeout' => 60, /* not implemented in ARC2 preview */
-  'endpoint_write_key' => '********', /* optional, but without one, everyone can write! */
+  'endpoint_write_key' => $sparql_key, /* optional, but without one, everyone can write! */
   // 'endpoint_max_limit' => 300, /* optional */
 );
 
