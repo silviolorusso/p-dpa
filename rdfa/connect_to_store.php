@@ -1,6 +1,6 @@
 <?php
 
-include_once('access_sparql_db.php');
+include('access_sparql_db.php');
 
 // ************************************************************
 // Connecting to the Store
