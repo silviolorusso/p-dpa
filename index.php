@@ -4,7 +4,7 @@
 					<div id="main" class="clearfix main-index" role="main">
 						<h5 class="mini-title">Latest Works Added</h5>
 						<?php 
-						$args = array('post_type' => 'work', 'posts_per_page' => 4, 'paged' => $paged);
+						$args = array('post_type' => 'work', 'posts_per_page' => 10, 'paged' => $paged);
 						$the_query = new WP_Query( $args ); 
 						?>
 						<?php if ( $the_query->have_posts() ) : ?>
