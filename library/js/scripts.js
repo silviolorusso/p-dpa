@@ -64,7 +64,7 @@ jQuery(document).ready(function($) {
 	           $(window).resize(); // avoid #main glitch
 	        }, 50)
 		}).resize();
-		
+	
 	} /* end larger than 481px */
 	
 	/* if is above or equal to 768px */
@@ -117,28 +117,6 @@ jQuery(document).ready(function($) {
 	    $container.masonry( 'appended', $newElems );
 	  }
 	);
-	
-	//fix images in Firefox
-	function checkStretch(img) {
-		// Get on screen image
-		var screenImage = $(img);
-	
-		// Create new offscreen image to test
-		var theImage = new Image();
-		theImage.src = screenImage.attr('src');
-		
-		// Get accurate measurements from that.
-		var imageWidth = theImage.width;
-		
-		if (imageWidth <= $(img).closest('div').width() ) {
-			$(img).css( 'width', 'auto !important' );
-		} else {
-			$(img).css( 'width', '100% !important' );
-		}
-	}
-	$(window).on("resize", function () {
-		checkStretch('img');
-	}).resize();
 }); /* end of as page load scripts */
 
 
