@@ -64,6 +64,11 @@ jQuery(document).ready(function($) {
 	           $(window).resize(); // avoid #main glitch
 	        }, 50)
 		}).resize();
+		
+		// fix images on Firefox (to recheck!)
+		$(window).on("resize", function () {
+			$('td.img>div').width( $('#logo-img').width() * 2.2 );
+		});
 	
 	} /* end larger than 481px */
 	
