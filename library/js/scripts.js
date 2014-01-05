@@ -64,7 +64,27 @@ jQuery(document).ready(function($) {
 	           $(window).resize(); // avoid #main glitch
 	        }, 50)
 		}).resize();
-	
+		
+		// fix images in Firefox
+		$(window).on("resize", function () {
+			function checkStrech(img) {
+				// Get on screen image
+				var screenImage = img;
+			
+				// Create new offscreen image to test
+				var theImage = new Image();
+				theImage.src = screenImage.attr('src');
+				
+				// Get accurate measurements from that.
+				var imageWidth = theImage.width;
+				
+				if (imageWidth <= img.closest('div').width() ) {
+					img.css( 'width', 'auto !important' );
+				} else {
+					img.css( 'width', '100% !important' );
+				}
+			}
+		}).resize();
 	} /* end larger than 481px */
 	
 	/* if is above or equal to 768px */

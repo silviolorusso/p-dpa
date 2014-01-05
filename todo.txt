@@ -1,0 +1,2 @@
+fix images on firefox
+fix footer on small devices
