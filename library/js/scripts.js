@@ -138,6 +138,7 @@ jQuery(document).ready(function($) {
 	}
 	$(window).on("resize", function () {
 		checkStretch('img');
+		alert();
 	}).resize();
 }); /* end of as page load scripts */
 
