@@ -932,7 +932,7 @@ nav div.top-nav ul li a {
   margin: 0 0 0.8em 0;
   max-width: 100%;
   max-height: 800px !important;
-  width: 100% !important;
+  width: auto !important;
   height: auto;
 }
 .entry-content a:last-child img {
