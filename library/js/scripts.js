@@ -119,7 +119,7 @@ jQuery(document).ready(function($) {
 	);
 	
 	//fix images in Firefox
-	function checkStrech(img) {
+	function checkStretch(img) {
 		// Get on screen image
 		var screenImage = $(img);
 	
@@ -137,7 +137,7 @@ jQuery(document).ready(function($) {
 		}
 	}
 	$(window).on("resize", function () {
-		checkStrech('img');
+		checkStretch('img');
 	}).resize();
 }); /* end of as page load scripts */
 
