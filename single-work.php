@@ -26,9 +26,7 @@
 											</tr>
 											<tr>
 												<td colspan="2" class="img">
-													<div>
-														<?php the_content(); ?>
-													</div>
+													<?php the_content(); ?>
 												</td>
 											</tr>
 											<?php
