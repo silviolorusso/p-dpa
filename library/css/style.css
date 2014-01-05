@@ -931,7 +931,7 @@ nav div.top-nav ul li a {
 .entry-content img {
   margin: 0 0 0.8em 0;
   max-height: 800px !important;
-  width: 100% !important;
+  width: auto !important;
   height: auto;
 }
 .entry-content a:last-child img {
@@ -991,6 +991,7 @@ nav div.top-nav ul li a {
   margin-bottom: 1.5em;
   background-color: white;
   font-weight: bold;
+  table-layout: fixed;
   -webkit-box-shadow: 0 0 0 #000000;
   -moz-box-shadow: 0 0 0 #000000;
   box-shadow: 0 0 0 #000000;
@@ -1034,6 +1035,9 @@ a .table:hover {
 .home-article {
   margin: 0 !important;
   width: 100%;
+}
+article.type-post .entry-content img {
+  width: 100% !important;
 }
 /******************************************************************
 09. PAGE NAVI STYLES

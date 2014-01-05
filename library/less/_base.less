@@ -257,7 +257,7 @@ nav {
 	img {
 		margin: 0 0 0.8em 0;
 		max-height: 800px !important;
-		width: 100% !important;
+		width: auto !important;
 		height: auto;
 	}
 	a:last-child img {
@@ -320,6 +320,7 @@ nav {
 	margin-bottom: 1.5em;
 	background-color: white;
 	font-weight: bold;
+	table-layout:fixed;
 	.boxShadowNone;
 	.transition;
 	td {
@@ -351,6 +352,9 @@ a .table:hover {
 .home-article {
 	margin: 0 !important;	
 	width: 100%;
+}
+article.type-post .entry-content img {
+	width: 100% !important;
 }
 
 /******************************************************************
