@@ -121,7 +121,7 @@ jQuery(document).ready(function($) {
 	//fix images in Firefox
 	function checkStrech(img) {
 		// Get on screen image
-		var screenImage = img;
+		var screenImage = $(img);
 	
 		// Create new offscreen image to test
 		var theImage = new Image();
@@ -130,17 +130,14 @@ jQuery(document).ready(function($) {
 		// Get accurate measurements from that.
 		var imageWidth = theImage.width;
 		
-		if (imageWidth <= img.closest('div').width() ) {
-			img.css( 'width', 'auto !important' );
+		if (imageWidth <= $(img).closest('div').width() ) {
+			$(img).css( 'width', 'auto !important' );
 		} else {
-			img.css( 'width', '100% !important' );
+			$(img).css( 'width', '100% !important' );
 		}
 	}
 	$(window).on("resize", function () {
-	     var images = document.images;
-	     for (var i=0; i<images.length; i++){
-	     	checkStrech(images[i]);
-	     }
+		checkStrech('img');
 	}).resize();
 }); /* end of as page load scripts */
 
