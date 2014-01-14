@@ -8,3 +8,4 @@ links to media and platforms
 media description?
 rss broken
 title in logo
+update all page
