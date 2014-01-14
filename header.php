@@ -71,7 +71,6 @@
 						<div id="logo">
 							<a href="<?php echo home_url(); ?>" rel="nofollow">
 								<div id="logo-img">
-									Post-Digital Publishing Archive
 								</div>
 							</a>
 						</div>
