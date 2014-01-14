@@ -7,3 +7,4 @@ related works
 links to media and platforms
 media description?
 rss broken
+title in logo
