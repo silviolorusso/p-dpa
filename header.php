@@ -28,6 +28,11 @@
 		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/win8-tile-icon.png">
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+		
+		<meta name="Description" content="Post-Digital Publishing Archive <?php wp_title('|',true,'left'); ?>" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="<?php wp_title('|',true,'right'); ?> P—DPA" />
+		<meta property="og:description" content="Post-Digital Publishing Archive <?php wp_title('|',true,'left'); ?>" />
 
 		<?php wp_head(); ?>
 		
@@ -66,6 +71,7 @@
 						<div id="logo">
 							<a href="<?php echo home_url(); ?>" rel="nofollow">
 								<div id="logo-img">
+									Post-Digital Publishing Archive
 								</div>
 							</a>
 						</div>
