@@ -1,2 +1,3 @@
-fix images on firefox
+fix images on firefox (done)
 fix footer on small devices
+number of articles

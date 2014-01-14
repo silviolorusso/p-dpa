@@ -10,7 +10,7 @@ Template Name: Articles
 					<div id="main" class="clearfix main-index" role="main">
 						<h5 class="mini-title">Latest Articles</h5>
 						<?php
-						$args = array('post_type' => 'post', 'posts_per_page' => 1, 'paged' => $paged);
+						$args = array('post_type' => 'post', 'posts_per_page' => 10, 'paged' => $paged);
 						$the_query = new WP_Query( $args ); ?>
 						<?php if ( $the_query->have_posts() ) : ?>
 						<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
