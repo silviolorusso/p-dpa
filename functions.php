@@ -400,4 +400,5 @@ function my_vocabs_query() {
 include_once('rdfa/access_sparql_db.php');
 $newdb = new wpdb($db_user, $db_pass, $db_name, $db_host);
 $newdb->show_errors();
+
 ?>

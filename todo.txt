@@ -1,3 +1,9 @@
 fix images on firefox (done)
 number of articles (done)
 fix footer on small devices
+fix gallery images on multiple lines
+fix metadata boxes: p to div I guess
+related works
+links to media and platforms
+media description?
+rss broken
