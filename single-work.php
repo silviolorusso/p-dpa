@@ -22,7 +22,7 @@
 											</tr>
 											<tr>
 												<td><p>Description</p></td>
-												<td><div property="dcterms:description"><?php echo types_render_field("description", array()); ?></div></td>
+												<td><p property="dcterms:description"><?php echo types_render_field("description", array()); ?></p></td>
 											</tr>
 											<tr>
 												<td colspan="2" class="img">
