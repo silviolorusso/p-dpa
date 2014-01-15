@@ -9,3 +9,4 @@ media description?
 rss broken
 title in logo
 update all page
+author in home page when under 1200px
