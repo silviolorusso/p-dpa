@@ -1019,7 +1019,7 @@ nav div.top-nav ul li a {
 }
 .table tr td.img img {
   max-width: 100%;
-  width: 100%;
+  width: auto;
   max-height: 400px;
 }
 a .table:hover {
