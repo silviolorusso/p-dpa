@@ -1020,7 +1020,7 @@ nav div.top-nav ul li a {
 .table tr td.img img {
   max-width: 100%;
   width: auto;
-  max-height: 400px;
+  max-height: 350px;
 }
 a .table:hover {
   -webkit-box-shadow: 6px 6px 0 #000000;
