@@ -30,6 +30,7 @@
 														<'.get_permalink().'> dcterms:creator ?url .
 														?url foaf:name ?name
 													}
+													ORDER BY ?name
 												';
 												$result = $store->query($query, 'rows'); ?>
 												<td>
