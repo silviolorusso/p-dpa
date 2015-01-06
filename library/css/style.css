@@ -939,7 +939,7 @@ nav div.top-nav ul li a {
   box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.1);
 }
 .entry-content a:last-child img {
-  margin: 0;
+  margin-bottom: 0;
 }
 .entry-content video,
 .entry-content object,
