@@ -78,7 +78,7 @@
 					<div class="fourcol" id="blog-desc">
 						<div>
 							<div>
-								<h2>Experimental Publishing<br/> Informed By<br/> Digital Technology</h2>
+								<h2>Experimental<br/> Publishing<br/> Informed By<br/> Digital<br/> Technology</h2>
 							</div>
 						</div>
 					</div>
