@@ -979,6 +979,9 @@ nav div.top-nav ul li a {
   background-color: #ffffff;
   color: #000000;
 }
+.wp-caption p.wp-caption-text a {
+  border-bottom-width: 1px;
+}
 /* end .wp-caption */
 /* image gallery styles */
 .gallery dt {
