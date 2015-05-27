@@ -952,6 +952,9 @@ nav div.top-nav ul li a {
   border: 1px solid #cecece;
   padding: 10px;
 }
+.entry-content hr {
+  border: solid 2px #000000;
+}
 /* end .entry-content */
 .wp-caption {
   max-width: 100%;
