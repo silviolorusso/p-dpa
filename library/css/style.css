@@ -754,6 +754,10 @@ ol,
 ul {
   font-size: 1.125em;
 }
+ol p,
+ul p {
+  font-size: 1em;
+}
 h1,
 .h1,
 h2,
