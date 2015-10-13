@@ -100,7 +100,7 @@ jQuery(document).ready(function($) {
 	function fitvid() {
 		jQuery(function($){ 
 			$('.entry-content').fitVids();
-			$(".entry-content").fitVids({ customSelector: "iframe[src^='http://issuu.com'], iframe[src^='http://www.slideshare.net']"});
+			$(".entry-content").fitVids({ customSelector: "iframe[src^='http://issuu.com'], iframe[src^='http://www.slideshare.net'], iframe[src^='https://archive.org/']"});
 		});
 	}
 	fitvid();
