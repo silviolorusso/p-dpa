@@ -951,7 +951,7 @@ nav div.top-nav ul li a {
 .entry-content video,
 .entry-content object,
 .entry-content iframe {
-  margin: 0 auto 0.9em auto;
+  margin: 4 auto 4em auto;
 }
 .entry-content pre {
   background: #eee;
