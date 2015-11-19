@@ -945,11 +945,13 @@ nav div.top-nav ul li a {
 .entry-content a:last-child img {
   margin-bottom: 0;
 }
+.entry-content div.fluid-width-video-wrapper {
+  margin: 0 0 0.9em 0;
+}
 .entry-content video,
 .entry-content object,
-.entry-content iframe,
-.entry-content div.fluid-width-video-wrapper {
-  margin: 4em auto 4em auto;
+.entry-content iframe {
+  margin: 0 auto 0.9em auto;
 }
 .entry-content pre {
   background: #eee;
