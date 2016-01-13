@@ -52,7 +52,7 @@ class ARC2_Store extends ARC2_Class {
       return $this->addError(mysql_error());
     }
     $this->a['db_con'] = $db_con;
-    if (!mysql_select_db($this->a['db_name'], $db_con)) {
+    if (!mysqli_select_db($this->a['db_name'], $db_con)) {
       $fixed = 0;
       /* try to create it */
       if ($this->a['db_name']) {
